@@ -6,6 +6,7 @@
   "packageManager": "pnpm@10",
   "scripts": {
     "build:units-index": "node ./scripts/build-units-index.mjs",
+    "preview:docs": "node ./scripts/preview-docs.mjs",
     "validate": "node ./scripts/validate-data.mjs",
     "check:sources": "node ./scripts/check-sources.mjs"
   }

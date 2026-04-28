@@ -1,0 +1,1538 @@
+/* Battle Nations Data — dev reference.
+ * Single sans (Inter), mono only where functional (code/IDs/JSON).
+ * One warm accent (#a87a2c) is the only color identity.
+ */
+
+:root {
+  /* Light theme (default) */
+  --paper: #fbf8f1;
+  --paper-tint: #f3eee2;
+  --paper-strong: #ebe4d2;
+  --ink: #1a1815;
+  --ink-soft: #5c564e;
+  --ink-fade: #8a8275;
+  --accent: #a87a2c;
+  --accent-deep: #7a571f;
+  --accent-soft: rgba(168, 122, 44, 0.12);
+  --accent-tint: rgba(168, 122, 44, 0.05);
+  --rule: #e6dfcd;
+  --rule-strong: #d2c8b1;
+  --code-bg: #1a1815;
+  --code-fg: #e8d4b0;
+
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --measure: 68ch;
+  --sidebar-w: 220px;
+  --gutter: 64px;
+}
+
+/* Dark theme — applied either by explicit data-theme attr, or by system pref when no attr is set. */
+:root[data-theme="dark"] {
+  --paper: #14110d;
+  --paper-tint: #1d1916;
+  --paper-strong: #262220;
+  --ink: #ece4d2;
+  --ink-soft: #a89e8a;
+  --ink-fade: #6a6258;
+  --accent: #c79750;
+  --accent-deep: #e8b86c;
+  --accent-soft: rgba(199, 151, 80, 0.16);
+  --accent-tint: rgba(199, 151, 80, 0.07);
+  --rule: #2e2925;
+  --rule-strong: #3e3832;
+  --code-bg: #0d0b09;
+  --code-fg: #e8d4b0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --paper: #14110d;
+    --paper-tint: #1d1916;
+    --paper-strong: #262220;
+    --ink: #ece4d2;
+    --ink-soft: #a89e8a;
+    --ink-fade: #6a6258;
+    --accent: #c79750;
+    --accent-deep: #e8b86c;
+    --accent-soft: rgba(199, 151, 80, 0.16);
+    --accent-tint: rgba(199, 151, 80, 0.07);
+    --rule: #2e2925;
+    --rule-strong: #3e3832;
+    --code-bg: #0d0b09;
+    --code-fg: #e8d4b0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--rule-strong);
+  transition: color 120ms linear, text-decoration-color 120ms linear;
+}
+
+a:hover {
+  color: var(--accent-deep);
+  text-decoration-color: var(--accent-deep);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+code,
+pre {
+  font-family: var(--mono);
+}
+
+p code,
+li code,
+dt code,
+dd code,
+.lead code {
+  padding: 0.05em 0.35em;
+  background: var(--paper-strong);
+  border-radius: 3px;
+  font-size: 0.88em;
+  color: var(--ink);
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 8px 12px;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ----- Layout ----- */
+
+.page {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+  gap: var(--gutter);
+  margin: 0;
+  padding: 56px 40px 96px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 32px;
+  align-self: start;
+  display: grid;
+  gap: 32px;
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.content {
+  min-width: 0;
+}
+
+/* Constrain prose-like blocks. Wide blocks (filters, snippets, table) escape. */
+.lead p,
+.section > p,
+.section > .section-lede,
+.schema-list,
+.rule-list {
+  max-width: var(--measure);
+}
+
+/* ----- Masthead ----- */
+
+.masthead {
+  display: grid;
+  gap: 2px;
+}
+
+.masthead-kicker {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+}
+
+.masthead-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
+/* ----- Sidebar TOC ----- */
+
+.toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1px;
+}
+
+.toc a {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 10px;
+  padding: 6px 10px 6px 12px;
+  margin-left: -12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--ink);
+  font-size: 0.92rem;
+  transition: background 120ms linear, color 120ms linear;
+}
+
+.toc a:hover {
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+}
+
+.toc-num {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-fade);
+}
+
+/* ----- Sidebar stats ----- */
+
+.sidebar-heading {
+  margin: 0 0 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-fade);
+}
+
+.sidebar-stats dl {
+  display: grid;
+  gap: 0;
+  margin: 0;
+}
+
+.sidebar-stats dl > div {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  padding: 6px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.sidebar-stats dl > div:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.sidebar-stats dt {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.sidebar-stats dd {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* ----- Sidebar footer ----- */
+
+.sidebar-footer {
+  border-top: 1px solid var(--rule);
+  padding-top: 16px;
+  display: grid;
+  gap: 14px;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 1px solid var(--rule-strong);
+  border-radius: 5px;
+  padding: 6px 10px;
+  color: var(--ink-soft);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+  transition: border-color 120ms linear, color 120ms linear, background 120ms linear;
+}
+
+.theme-toggle:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.theme-toggle-icon {
+  display: inline-block;
+  width: 14px;
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.theme-toggle-icon::before {
+  content: "☾";
+}
+
+.theme-toggle[data-theme="dark"] .theme-toggle-icon::before {
+  content: "☀";
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.sidebar-links a {
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.sidebar-links a:hover {
+  color: var(--accent-deep);
+}
+
+.sidebar-links code {
+  background: none;
+  padding: 0;
+  font-size: 0.84rem;
+  color: inherit;
+}
+
+/* ----- Lead ----- */
+
+.lead {
+  margin: 0 0 56px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.lead p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.lead p + p {
+  margin-top: 16px;
+}
+
+.lead-cta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+}
+
+.lead-cta-note {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+/* ----- CTA button (used in lead + contribute callout) ----- */
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  background: var(--accent);
+  color: var(--paper);
+  border: 1px solid var(--accent);
+  border-radius: 5px;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 120ms linear, border-color 120ms linear, color 120ms linear, transform 120ms ease;
+}
+
+.cta-button:hover {
+  background: var(--accent-deep);
+  border-color: var(--accent-deep);
+  color: var(--paper);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.cta-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+:root[data-theme="dark"] .cta-button,
+:root[data-theme="dark"] .cta-button:hover {
+  color: var(--ink);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .cta-button,
+  :root:not([data-theme]) .cta-button:hover {
+    color: var(--ink);
+  }
+}
+
+.cta-icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.cta-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 120ms linear, transform 120ms ease;
+}
+
+.cta-link:hover {
+  color: var(--accent-deep);
+  text-decoration: none;
+  transform: translateX(2px);
+}
+
+/* ----- Contribute callout (Rules section) ----- */
+
+.contribute-callout {
+  margin: 32px 0 0;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  border: 1px solid var(--rule-strong);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  background: var(--paper-tint);
+}
+
+.contribute-heading {
+  margin: 0 0 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.contribute-text p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.95rem;
+  max-width: none;
+}
+
+.contribute-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+/* ----- Sidebar GitHub link ----- */
+
+.sidebar-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: var(--accent) !important;
+  font-size: 0.9rem !important;
+}
+
+.sidebar-github:hover {
+  color: var(--accent-deep) !important;
+}
+
+/* ----- Sections ----- */
+
+.section {
+  margin: 56px 0;
+}
+
+.section + .section {
+  margin-top: 72px;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 16px;
+}
+
+.section-num {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.section-lede {
+  margin: 0 0 1.25em;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+/* ----- TypeScript declaration block (Schema section) ----- */
+
+.ts-block {
+  margin: 24px 0 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--code-bg);
+}
+
+.ts-block-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--paper-tint);
+  border-bottom: 1px solid var(--rule);
+}
+
+.ts-block-head .snippet-label {
+  margin: 0;
+  font-family: var(--mono);
+  font-weight: 500;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+.ts-block-head .button-secondary {
+  font-size: 0.82rem;
+}
+
+.ts-block-pre {
+  margin: 0;
+  padding: 16px 18px;
+  max-height: 480px;
+  overflow: auto;
+  background: var(--code-bg);
+  color: var(--code-fg);
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  white-space: pre;
+}
+
+.ts-block-code {
+  font-family: var(--mono);
+  font-size: inherit;
+  white-space: pre;
+}
+
+/* ----- Schema list ----- */
+
+.schema-list-lede {
+  margin: 32px 0 0;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.schema-list {
+  margin: 8px 0 0;
+  display: grid;
+  gap: 0;
+}
+
+.schema-list > div {
+  display: grid;
+  grid-template-columns: minmax(170px, 200px) minmax(0, 1fr);
+  gap: 28px;
+  padding: 16px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.schema-list > div:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.schema-list dt {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.schema-list dd {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+/* ----- Snippets ----- */
+
+.snippet {
+  margin: 20px 0 0;
+}
+
+.snippet + .snippet {
+  margin-top: 20px;
+}
+
+.snippet-label {
+  margin: 0 0 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.snippet pre {
+  margin: 0;
+  padding: 16px 18px;
+  background: var(--code-bg);
+  color: var(--code-fg);
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+/* ----- Rule list ----- */
+
+.rule-list {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.rule-list li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--ink);
+}
+
+.rule-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+}
+
+/* ----- Filters ----- */
+
+.filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 12px 14px;
+  align-items: end;
+  margin: 24px 0 0;
+}
+
+.filter-wide {
+  grid-column: 1 / -1;
+}
+
+.filter {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.filter span {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.filter input,
+.filter select {
+  width: 100%;
+  min-width: 0;
+  height: 36px;
+  padding: 6px 10px;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  border-radius: 5px;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  transition: border-color 120ms linear, box-shadow 120ms linear;
+}
+
+.filter input:focus,
+.filter select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.link-button,
+.button-secondary {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--rule-strong);
+  cursor: pointer;
+  text-align: left;
+  transition: color 120ms linear, text-decoration-color 120ms linear;
+}
+
+.link-button {
+  grid-column: 1 / -1;
+  justify-self: start;
+  margin-top: 4px;
+}
+
+.link-button:hover,
+.button-secondary:hover {
+  color: var(--accent-deep);
+  text-decoration-color: var(--accent-deep);
+}
+
+.link-button:focus-visible,
+.button-secondary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ----- Results / table ----- */
+
+.results-panel {
+  min-width: 0;
+  margin-top: 28px;
+}
+
+.results-meta {
+  margin: 0 0 12px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.results-meta p {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+.results-grid {
+  position: relative;
+  width: 100%;
+  max-height: 560px;
+  overflow-y: auto;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--paper);
+  transition: max-height 180ms ease;
+}
+
+/* When a unit is expanded, grow the box so the detail fits without nested scrolling. */
+.results-grid.has-open {
+  max-height: 1000px;
+}
+
+.unit-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.unit-table td,
+.unit-table th {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.unit-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--paper-tint);
+  border-bottom: 1px solid var(--rule-strong);
+  padding: 0;
+  text-align: left;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-fade);
+}
+
+.sort-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 10px 12px;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: color 120ms linear, background 120ms linear;
+}
+
+.sort-button:hover {
+  color: var(--ink);
+  background: var(--accent-tint);
+}
+
+.sort-button.is-active {
+  color: var(--accent);
+}
+
+.sort-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.sort-arrow {
+  font-size: 0.65rem;
+  color: var(--accent);
+  width: 8px;
+  display: inline-block;
+}
+
+.unit-table tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+  vertical-align: middle;
+}
+
+.unit-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.unit-row {
+  cursor: pointer;
+  transition: background 120ms linear;
+}
+
+.unit-row:hover {
+  background: var(--accent-tint);
+}
+
+.unit-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.unit-row.is-open {
+  background: var(--accent-soft);
+}
+
+.unit-row.is-open td {
+  border-bottom-color: var(--accent);
+}
+
+.cell-id {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  color: var(--ink-fade);
+}
+
+.cell-caret {
+  display: inline-block;
+  width: 12px;
+  margin-right: 6px;
+  color: var(--accent);
+  font-size: 0.75rem;
+}
+
+.cell-name {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.cell-mono {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+/* Fixed-width metric columns (small, predictable). Right-aligned so the sort arrow
+ * sits at the right edge where the eye expects it for numeric columns. */
+.col-id {
+  width: 72px;
+}
+
+.col-unlock {
+  width: 96px;
+}
+
+.col-rank {
+  width: 80px;
+}
+
+.col-actions {
+  width: 96px;
+}
+
+.unit-table th.col-id .sort-button,
+.unit-table th.col-unlock .sort-button,
+.unit-table th.col-rank .sort-button,
+.unit-table th.col-actions .sort-button {
+  justify-content: flex-end;
+  padding-left: 8px;
+  padding-right: 10px;
+  gap: 4px;
+}
+
+.unit-table td.col-id,
+.unit-table td.col-unlock,
+.unit-table td.col-rank,
+.unit-table td.col-actions {
+  text-align: right;
+  padding-right: 12px;
+}
+
+/* Flexible string columns share the remaining width.
+ * Name gets the largest share, the rest split the rest. */
+.col-name {
+  width: 28%;
+  min-width: 180px;
+}
+
+.col-aff {
+  width: 18%;
+  min-width: 120px;
+}
+
+.col-cat {
+  width: 16%;
+  min-width: 110px;
+}
+
+.col-type {
+  width: 16%;
+  min-width: 110px;
+}
+
+.col-aff,
+.col-cat,
+.col-type {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+/* Inline detail row (accordion) */
+
+.unit-detail-row td {
+  padding: 0;
+  background: var(--paper-strong);
+  border-bottom: 1px solid var(--rule-strong);
+  /* Override table-wide nowrap/ellipsis so children can wrap and scroll. */
+  white-space: normal;
+  overflow: visible;
+}
+
+.detail-inner {
+  padding: 20px 24px 24px;
+  /* Anchor for the children; they get explicit max-widths against this. */
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.detail-inner code,
+.detail-inner p,
+.detail-inner .detail-note {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  padding-bottom: 14px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.detail-summary {
+  flex: 1;
+  min-width: 0;
+}
+
+.detail-note {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.detail-stack {
+  display: grid;
+  gap: 0;
+}
+
+.detail-box {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.detail-box:last-child {
+  border-bottom: none;
+}
+
+.meta-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-fade);
+}
+
+.fact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px 16px;
+}
+
+.fact-grid article {
+  padding: 0;
+  min-width: 0;
+}
+
+.fact-grid .meta-label {
+  margin-bottom: 4px;
+  font-size: 0.65rem;
+}
+
+.fact-grid strong {
+  display: block;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--ink);
+  word-break: break-word;
+  font-family: var(--mono);
+}
+
+.action-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.action-list li {
+  padding-left: 16px;
+  position: relative;
+  color: var(--ink);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.action-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.action-list strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.detail-json {
+  max-height: 320px;
+  max-width: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 12px 14px;
+  background: var(--code-bg);
+  color: var(--code-fg);
+  border-radius: 5px;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  line-height: 1.55;
+  white-space: pre;
+}
+
+.status-message {
+  margin: 0;
+  padding: 24px 16px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* ----- Responsive ----- */
+
+@media (max-width: 1080px) {
+  :root {
+    --gutter: 40px;
+  }
+
+  .filters {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Tablet / narrow desktop: collapse to one column, keep table dense. */
+@media (max-width: 820px) {
+  .page {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px 20px 64px;
+  }
+
+  .sidebar {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+    padding-bottom: 16px;
+    gap: 18px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .toc ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+  }
+
+  .toc a {
+    grid-template-columns: auto auto;
+    margin-left: 0;
+    padding: 6px 4px;
+  }
+
+  .toc a:hover {
+    background: none;
+  }
+
+  .sidebar-stats dl {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 16px;
+  }
+
+  .sidebar-stats dl > div {
+    border-top: none;
+    padding: 0;
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .sidebar-stats dt {
+    font-size: 0.72rem;
+  }
+
+  .sidebar-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .sidebar-links {
+    display: flex;
+    gap: 16px;
+  }
+
+  .schema-list > div {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  /* Hide secondary string columns; keep the most useful at this width. */
+  .col-cat,
+  .col-type {
+    display: none;
+  }
+}
+
+/* Phone: switch the table from columns-per-cell to one card per row.
+ * Each row stacks Name + ID prominently, then a key/value strip for the rest.
+ * Headers are hidden because each cell now carries its own label via ::before. */
+@media (max-width: 600px) {
+  .page {
+    padding: 20px 14px 56px;
+    gap: 20px;
+  }
+
+  body {
+    font-size: 14.5px;
+  }
+
+  .section {
+    margin: 40px 0;
+  }
+
+  .section + .section {
+    margin-top: 56px;
+  }
+
+  .section h2 {
+    font-size: 1.35rem;
+  }
+
+  .lead {
+    margin-bottom: 36px;
+    padding-bottom: 20px;
+  }
+
+  .filters {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .filter input,
+  .filter select {
+    height: 40px;
+    font-size: 16px; /* prevents iOS zoom on focus */
+  }
+
+  /* --- Table → cards --- */
+  .unit-table,
+  .unit-table thead,
+  .unit-table tbody,
+  .unit-table tr,
+  .unit-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .unit-table {
+    table-layout: auto;
+  }
+
+  .unit-table thead {
+    /* Visually hidden but accessible */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .unit-row {
+    display: grid !important;
+    grid-template-columns: 1fr auto auto;
+    grid-template-areas: "name rnk id";
+    align-items: center;
+    column-gap: 14px;
+    padding: 14px;
+    border-bottom: 1px solid var(--rule);
+    min-height: 52px;
+  }
+
+  .unit-row:focus-visible {
+    outline-offset: -3px;
+  }
+
+  /* Map each cell to a grid area; restore wrapping (parent table had nowrap). */
+  .unit-row > td {
+    padding: 0;
+    border: none;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    text-align: left;
+  }
+
+  .unit-row .col-name {
+    grid-area: name;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  .unit-row .col-rank {
+    grid-area: rnk;
+    text-align: right !important;
+    color: var(--ink-soft);
+    font-size: 0.82rem;
+  }
+
+  .unit-row .col-id {
+    grid-area: id;
+    text-align: right !important;
+    color: var(--ink-fade);
+    font-size: 0.82rem;
+  }
+
+  /* Hide everything we don't show on mobile rows. */
+  .unit-row .col-aff,
+  .unit-row .col-cat,
+  .unit-row .col-type,
+  .unit-row .col-unlock,
+  .unit-row .col-actions {
+    display: none;
+  }
+
+  .unit-row .col-name .cell-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .unit-row.is-open {
+    border-bottom-color: var(--accent);
+  }
+
+  /* The expanded detail row also unblocks display:block from above. */
+  .unit-detail-row {
+    display: block !important;
+  }
+
+  .unit-detail-row td {
+    padding: 0;
+  }
+
+  .detail-inner {
+    padding: 14px;
+  }
+
+  .detail-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .detail-actions {
+    gap: 18px;
+  }
+
+  .fact-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 14px;
+  }
+
+  /* On mobile, only the most useful fields survive: ID, Building, Unlock, HP.
+   * Hide Affiliation/Category/Unit type/Production — low signal at this size. */
+  .fact-grid article:nth-child(2),  /* Affiliation */
+  .fact-grid article:nth-child(3),  /* Category */
+  .fact-grid article:nth-child(4),  /* Unit type */
+  .fact-grid article:nth-child(7) { /* Production */
+    display: none;
+  }
+
+  .detail-box .detail-note code,
+  .detail-box p code {
+    font-size: 0.78rem;
+    word-break: break-all;
+  }
+
+  .detail-box {
+    padding: 12px 0;
+  }
+
+  .detail-json {
+    font-size: 0.74rem;
+    padding: 10px 12px;
+  }
+
+  /* Bleed the explorer table edge-to-edge by undoing page horizontal padding. */
+  .results-panel {
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+
+  .results-meta {
+    padding: 0 14px;
+  }
+
+  .results-grid {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .snippet {
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+
+  .snippet-label {
+    padding: 0 14px;
+  }
+
+  .snippet pre {
+    font-size: 0.78rem;
+    padding: 14px;
+    border-radius: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  .ts-block {
+    margin-left: -14px;
+    margin-right: -14px;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+  }
+
+  .ts-block-pre {
+    font-size: 0.76rem;
+    padding: 12px 14px;
+    max-height: 360px;
+  }
+
+  .lead-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .contribute-callout {
+    grid-template-columns: 1fr;
+    padding: 18px;
+    gap: 16px;
+  }
+
+  .contribute-actions {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .results-meta p {
+    font-size: 0.78rem;
+  }
+
+  .schema-list > div {
+    padding: 14px 0;
+  }
+
+  .theme-toggle {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Very narrow phones: drop the fact grid to one column. */
+@media (max-width: 380px) {
+  .sidebar-stats dl {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 16px;
+  }
+
+  .fact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ----- Reduced motion ----- */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}

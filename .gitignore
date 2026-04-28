@@ -1,3 +1,7 @@
 node_modules/
 coverage/
 dist/
+
+# Local AI tooling — must never ship in the public open-source repo
+.claude/
+.mdplans/

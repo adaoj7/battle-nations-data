@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battle Nations Data</title>
+    <meta
+      name="description"
+      content="Reference for the public Battle Nations unit dataset. Schema, working URLs, and an interactive unit browser."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("bn-theme");
+          if (saved === "dark" || saved === "light") {
+            document.documentElement.dataset.theme = saved;
+          }
+        } catch (_) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/docs.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <div class="page">
+      <aside class="sidebar" aria-label="Site navigation">
+        <header class="masthead">
+          <p class="masthead-kicker">Battle Nations</p>
+          <p class="masthead-title">Data</p>
+        </header>
+
+        <nav class="toc" aria-label="Sections">
+          <ol>
+            <li><a href="#overview"><span class="toc-num">01</span> Overview</a></li>
+            <li><a href="#quickstart"><span class="toc-num">02</span> Quickstart</a></li>
+            <li><a href="#schema"><span class="toc-num">03</span> Schema</a></li>
+            <li><a href="#explorer"><span class="toc-num">04</span> Explorer</a></li>
+            <li><a href="#rules"><span class="toc-num">05</span> Rules</a></li>
+          </ol>
+        </nav>
+
+        <section class="sidebar-stats" aria-label="Dataset summary">
+          <p class="sidebar-heading">Dataset</p>
+          <dl>
+            <div><dt>Units</dt><dd id="statUnits">—</dd></div>
+            <div><dt>Affiliations</dt><dd id="statAffiliations">—</dd></div>
+            <div><dt>Categories</dt><dd id="statCategories">—</dd></div>
+            <div><dt>Top unlock</dt><dd id="statUnlock">—</dd></div>
+          </dl>
+        </section>
+
+        <footer class="sidebar-footer">
+          <ul class="sidebar-links">
+            <li><a href="./data/units.json"><code>data/units.json</code></a></li>
+            <li><a href="./types/unit.d.ts"><code>types/unit.d.ts</code></a></li>
+            <li>
+              <a class="sidebar-github" href="https://github.com/adaoj7/battle-nations-data" rel="noreferrer">
+                <span aria-hidden="true">★</span> Contribute on GitHub
+              </a>
+            </li>
+          </ul>
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <span class="theme-toggle-icon" aria-hidden="true"></span>
+            <span class="theme-toggle-label">Theme</span>
+          </button>
+        </footer>
+      </aside>
+
+      <main id="content" class="content">
+        <section class="lead">
+          <p>
+            A reference for the public Battle Nations unit dataset. Per-unit JSON files at
+            <code>data/units/&lt;id&gt;.json</code> are canonical; the aggregate
+            <code>data/units.json</code> is generated from them.
+          </p>
+          <p class="lead-cta">
+            <a class="cta-button" href="https://github.com/adaoj7/battle-nations-data" rel="noreferrer">
+              <span class="cta-icon" aria-hidden="true">★</span>
+              Contribute on GitHub
+            </a>
+            <span class="lead-cta-note">Spot a wrong stat or missing field? Open an issue or PR.</span>
+          </p>
+        </section>
+
+        <section id="overview" class="section">
+          <header class="section-head">
+            <span class="section-num">01</span>
+            <h2>Overview</h2>
+          </header>
+          <p>
+            This page sits on top of the public dataset and answers three questions:
+            what is in the dataset, what shape it has, and how to query it without reading the
+            application repo.
+          </p>
+          <p>
+            One HTML document, one stylesheet, one script. The browser below loads
+            <code>./data/units.json</code> directly — no API, no build step. Every URL shown here is a
+            working URL.
+          </p>
+        </section>
+
+        <section id="quickstart" class="section">
+          <header class="section-head">
+            <span class="section-num">02</span>
+            <h2>Quickstart</h2>
+          </header>
+
+          <div class="snippet">
+            <p class="snippet-label">Fetch the aggregate</p>
+<pre><code>fetch("https://data.bn-db.com/data/units.json")
+  .then((response) =&gt; response.json())
+  .then((units) =&gt; console.log(units.length));</code></pre>
+          </div>
+
+          <div class="snippet">
+            <p class="snippet-label">Fetch one unit</p>
+<pre><code>fetch("https://data.bn-db.com/data/units/1.json")
+  .then((response) =&gt; response.json())
+  .then((unit) =&gt; console.log(unit.name));</code></pre>
+          </div>
+        </section>
+
+        <section id="schema" class="section">
+          <header class="section-head">
+            <span class="section-num">03</span>
+            <h2>Schema</h2>
+          </header>
+          <p class="section-lede">
+            The dataset is JSON, but a TypeScript declaration ships alongside it. Drop
+            <a href="./types/unit.d.ts"><code>types/unit.d.ts</code></a>
+            into a project and import the <code>Unit</code> type directly. The full file is below.
+          </p>
+
+          <div class="ts-block">
+            <div class="ts-block-head">
+              <p class="snippet-label">types/unit.d.ts</p>
+              <button id="copyTypesButton" class="button-secondary" type="button">Copy</button>
+            </div>
+            <pre class="ts-block-pre"><code id="typesCode" class="ts-block-code">Loading types…</code></pre>
+          </div>
+
+          <p class="schema-list-lede">Field groups, in plain English:</p>
+
+          <dl class="schema-list">
+            <div>
+              <dt>Identity &amp; taxonomy</dt>
+              <dd><code>id</code>, <code>name</code>, <code>category</code>, <code>unitType</code>, <code>affiliation</code> — the main browse keys.</dd>
+            </div>
+            <div>
+              <dt>Progression &amp; economy</dt>
+              <dd><code>unlockLevel</code>, <code>building</code>, <code>buildingLevel</code>, <code>productionTime</code>, <code>cost</code> — describe acquisition.</dd>
+            </div>
+            <div>
+              <dt>Stats by rank</dt>
+              <dd><code>stats.ranks[]</code> holds survivability and core performance values at each rank.</dd>
+            </div>
+            <div>
+              <dt>Actions &amp; attack data</dt>
+              <dd><code>actions[]</code> contains attack metadata, patterns, cooldowns, damage ranges, and per-rank tuning.</dd>
+            </div>
+            <div>
+              <dt>Defenses &amp; rules</dt>
+              <dd><code>resistances</code>, <code>immunities</code>, <code>blocking</code> describe combat interactions easy to miss in basic summaries.</dd>
+            </div>
+            <div>
+              <dt>Canonical vs. generated</dt>
+              <dd><code>data/units/&lt;id&gt;.json</code> is canonical. <code>data/units.json</code> is generated. App-only summaries belong elsewhere.</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section id="explorer" class="section">
+          <header class="section-head">
+            <span class="section-num">04</span>
+            <h2>Explorer</h2>
+          </header>
+          <p class="section-lede">
+            Search by name, description, building, affiliation, category, or unit type. Selecting a
+            unit reveals its public JSON shape and direct file path.
+          </p>
+
+          <div class="filters">
+            <label class="filter filter-wide">
+              <span>Search</span>
+              <input id="searchInput" type="search" placeholder="Trooper, Raider, Barracks, poison…" />
+            </label>
+
+            <label class="filter">
+              <span>Affiliation</span>
+              <select id="affiliationSelect">
+                <option value="">All</option>
+              </select>
+            </label>
+
+            <label class="filter">
+              <span>Category</span>
+              <select id="categorySelect">
+                <option value="">All</option>
+              </select>
+            </label>
+
+            <label class="filter">
+              <span>Unit type</span>
+              <select id="unitTypeSelect">
+                <option value="">All</option>
+              </select>
+            </label>
+
+            <button id="resetButton" class="link-button" type="button">Reset filters</button>
+          </div>
+
+          <section class="results-panel" aria-live="polite">
+            <header class="results-meta">
+              <p id="resultsMeta">Loading unit data…</p>
+            </header>
+            <div id="resultsGrid" class="results-grid"></div>
+          </section>
+        </section>
+
+        <section id="rules" class="section">
+          <header class="section-head">
+            <span class="section-num">05</span>
+            <h2>Rules</h2>
+          </header>
+          <ul class="rule-list">
+            <li>Edit per-unit files (<code>data/units/&lt;id&gt;.json</code>), not the generated aggregate.</li>
+            <li>Bring source evidence with every correction.</li>
+            <li>Treat image URLs as references; not all are guaranteed hosted assets in this repo.</li>
+            <li>Schema cleanup is a separate workstream — preserve canonical field semantics in data PRs.</li>
+          </ul>
+
+          <aside class="contribute-callout">
+            <div class="contribute-text">
+              <p class="contribute-heading">Contribute</p>
+              <p>
+                The dataset is community-maintained. Stat corrections, missing units, schema
+                fixes, and TypeScript type updates are all welcome. Open a pull request or
+                drop an issue with a source link.
+              </p>
+            </div>
+            <div class="contribute-actions">
+              <a class="cta-button" href="https://github.com/adaoj7/battle-nations-data" rel="noreferrer">
+                <span class="cta-icon" aria-hidden="true">★</span>
+                Open on GitHub
+              </a>
+              <a class="cta-link" href="https://github.com/adaoj7/battle-nations-data/issues/new" rel="noreferrer">
+                File an issue →
+              </a>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./assets/docs.js"></script>
+  </body>
+</html>
