@@ -1,0 +1,12 @@
+{
+  "name": "battle-nations-data",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Canonical Battle Nations unit data",
+  "packageManager": "pnpm@10",
+  "scripts": {
+    "build:units-index": "node ./scripts/build-units-index.mjs",
+    "validate": "node ./scripts/validate-data.mjs",
+    "check:sources": "node ./scripts/check-sources.mjs"
+  }
+}

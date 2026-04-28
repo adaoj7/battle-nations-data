@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://data.bn-db.com/schemas/unit.schema.json",
+  "title": "Battle Nations Unit",
+  "type": "object",
+  "description": "Placeholder schema to be tightened as the public data contract is finalized."
+}
