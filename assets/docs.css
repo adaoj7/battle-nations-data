@@ -210,15 +210,16 @@ dd code,
   letter-spacing: -0.02em;
 }
 
-/* Theme toggle in the masthead: icon-only at all breakpoints. The
-   adjacent "Data" title gives it editorial weight; the icon (☾/☀) is
-   the universal theme convention; aria-label carries the meaning. */
+/* The theme toggle has two homes:
+   - .theme-toggle-masthead: visible on mobile only (in the masthead row)
+   - .theme-toggle-footer: visible on desktop only (in the sidebar footer)
+   JS wires both via the .theme-toggle class, so either click works. */
 .theme-toggle-masthead {
+  display: none; /* hidden by default; shown at mobile breakpoint */
   flex-shrink: 0;
   width: 36px;
   height: 36px;
   padding: 0;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -1250,6 +1251,14 @@ dd code,
   .masthead {
     /* Sit on the same baseline as the page edge — no extra padding. */
     padding-bottom: 2px;
+  }
+
+  .theme-toggle-masthead {
+    display: inline-flex;
+  }
+
+  .theme-toggle-footer {
+    display: none;
   }
 
   .toc ol {

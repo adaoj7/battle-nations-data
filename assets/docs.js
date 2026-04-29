@@ -456,25 +456,29 @@ function getCurrentTheme() {
 }
 
 function setupThemeToggle() {
-  const button = document.querySelector("#themeToggle");
-  if (!button) return;
+  const buttons = document.querySelectorAll(".theme-toggle");
+  if (buttons.length === 0) return;
 
   const updateLabel = () => {
     const current = getCurrentTheme();
     const next = current === "dark" ? "light" : "dark";
-    button.setAttribute("aria-label", `Switch to ${next} mode`);
-    button.dataset.theme = current;
+    buttons.forEach((button) => {
+      button.setAttribute("aria-label", `Switch to ${next} mode`);
+      button.dataset.theme = current;
+    });
   };
 
   updateLabel();
 
-  button.addEventListener("click", () => {
-    const next = getCurrentTheme() === "dark" ? "light" : "dark";
-    document.documentElement.dataset.theme = next;
-    try {
-      localStorage.setItem("bn-theme", next);
-    } catch (_) {}
-    updateLabel();
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const next = getCurrentTheme() === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      try {
+        localStorage.setItem("bn-theme", next);
+      } catch (_) {}
+      updateLabel();
+    });
   });
 
   window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener?.("change", () => {
