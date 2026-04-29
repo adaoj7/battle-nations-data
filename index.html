@@ -26,6 +26,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/docs.css" />
+    <script defer src="https://striker-stats.bn-db.com/script.js" data-website-id="a1484d1f-abdf-4db4-933e-7f0ed8f2f3b3"></script>
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
@@ -33,8 +34,14 @@
     <div class="page">
       <aside class="sidebar" aria-label="Site navigation">
         <header class="masthead">
-          <p class="masthead-kicker">Battle Nations</p>
-          <p class="masthead-title">Data</p>
+          <div class="masthead-title-group">
+            <p class="masthead-kicker">Battle Nations</p>
+            <p class="masthead-title">Data</p>
+          </div>
+          <button id="themeToggle" class="theme-toggle theme-toggle-masthead" type="button" aria-label="Toggle dark mode">
+            <span class="theme-toggle-icon" aria-hidden="true"></span>
+            <span class="theme-toggle-label">Theme</span>
+          </button>
         </header>
 
         <nav class="toc" aria-label="Sections">
@@ -67,10 +74,6 @@
               </a>
             </li>
           </ul>
-          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
-            <span class="theme-toggle-icon" aria-hidden="true"></span>
-            <span class="theme-toggle-label">Theme</span>
-          </button>
         </footer>
       </aside>
 
@@ -80,13 +83,6 @@
             A reference for the public Battle Nations unit dataset. Per-unit JSON files at
             <code>data/units/&lt;id&gt;.json</code> are canonical; the aggregate
             <code>data/units.json</code> is generated from them.
-          </p>
-          <p class="lead-cta">
-            <a class="cta-button" href="https://github.com/adaoj7/battle-nations-data" rel="noreferrer">
-              <span class="cta-icon" aria-hidden="true">★</span>
-              Contribute on GitHub
-            </a>
-            <span class="lead-cta-note">Spot a wrong stat or missing field? Open an issue or PR.</span>
           </p>
         </section>
 
