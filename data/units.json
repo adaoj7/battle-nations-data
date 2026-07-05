@@ -176,7 +176,7 @@
     },
     "actions": [
       {
-        "name": "Battle Rifle",
+        "name": "Shoot",
         "description": "Standard attack with the M-11 Battle Rifle",
         "damageType": "Piercing",
         "lineOfFire": "Direct",
