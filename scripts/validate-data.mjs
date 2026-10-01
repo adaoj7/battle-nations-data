@@ -24,9 +24,20 @@ async function main() {
   const entries = await fs.readdir(unitsDir, { withFileTypes: true });
   const unitFiles = entries.filter((entry) => entry.isFile() && entry.name.endsWith(".json"));
 
+  // Values the published Unit type allows (types/unit.d.ts).
+  const blockingValues = new Set(["Full", "Partial", "None"]);
+  const problems = [];
+
   for (const entry of unitFiles) {
     const raw = await fs.readFile(path.join(unitsDir, entry.name), "utf8");
-    JSON.parse(raw);
+    const unit = JSON.parse(raw);
+    if (unit.blocking !== undefined && !blockingValues.has(unit.blocking)) {
+      problems.push(`${entry.name}: blocking "${unit.blocking}" must be one of ${[...blockingValues].join(", ")}`);
+    }
+  }
+
+  if (problems.length > 0) {
+    throw new Error(`Invalid unit data:\n${problems.join("\n")}`);
   }
 
   if (await fileExists(unitsIndexPath)) {

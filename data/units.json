@@ -12241,7 +12241,7 @@
         "amount": 75
       }
     ],
-    "blocking": "Partial",
+    "blocking": "Full",
     "maxRank": 6,
     "motto": "No stranger to the brutalities of war, this unit is specially outfitted to inflict pain on the enemy.",
     "stats": {
@@ -31267,7 +31267,7 @@
         "amount": 30
       }
     ],
-    "blocking": "Partial",
+    "blocking": "Full",
     "maxRank": 6,
     "immunities": [
       "Plague"
@@ -47891,7 +47891,7 @@
         "amount": 500
       }
     ],
-    "blocking": "Partial",
+    "blocking": "Full",
     "maxRank": 8,
     "immunities": [
       "Breach"
@@ -89604,7 +89604,7 @@
         "amount": 10
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 6,
     "stats": {
       "ranks": [
@@ -96979,7 +96979,7 @@
         "amount": 85
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 6,
     "stats": {
       "ranks": [
@@ -102201,7 +102201,7 @@
         "amount": 69
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 9,
     "stats": {
       "ranks": [
@@ -104981,7 +104981,7 @@
         "amount": 60
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 6,
     "stats": {
       "ranks": [
@@ -105889,7 +105889,7 @@
         "amount": 60
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 6,
     "stats": {
       "ranks": [
@@ -107061,7 +107061,7 @@
         "amount": 65
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 9,
     "stats": {
       "ranks": [
@@ -108260,7 +108260,7 @@
         "amount": 75
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 7,
     "stats": {
       "ranks": [
@@ -108722,7 +108722,7 @@
         "amount": 85
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 9,
     "stats": {
       "ranks": [
@@ -109576,7 +109576,7 @@
         "amount": 89
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 9,
     "stats": {
       "ranks": [
@@ -110482,7 +110482,7 @@
         "amount": 90
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 9,
     "stats": {
       "ranks": [
@@ -111460,7 +111460,7 @@
     "unlockLevel": 40,
     "productionTime": null,
     "cost": [],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 6,
     "stats": {
       "ranks": [
@@ -113261,7 +113261,7 @@
         "amount": 70
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 6,
     "stats": {
       "ranks": [
@@ -113699,7 +113699,7 @@
         "amount": 100
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 6,
     "stats": {
       "ranks": [
@@ -115517,7 +115517,7 @@
         "amount": 79
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 8,
     "stats": {
       "ranks": [
@@ -116203,7 +116203,7 @@
         "amount": 79
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 8,
     "stats": {
       "ranks": [
@@ -117941,7 +117941,7 @@
         "amount": 69
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 8,
     "stats": {
       "ranks": [
@@ -119402,7 +119402,7 @@
         "amount": 69
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 8,
     "stats": {
       "ranks": [
@@ -120695,7 +120695,7 @@
         "amount": 70
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 9,
     "stats": {
       "ranks": [
@@ -123328,7 +123328,7 @@
         "amount": 70
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 9,
     "stats": {
       "ranks": [
@@ -125671,7 +125671,7 @@
         "amount": 24000
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 8,
     "stats": {
       "ranks": [
@@ -126173,7 +126173,7 @@
         "amount": 55
       }
     ],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 8,
     "stats": {
       "ranks": [
@@ -126657,7 +126657,7 @@
     "unlockLevel": 66,
     "productionTime": null,
     "cost": [],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 6,
     "stats": {
       "ranks": [
@@ -127761,7 +127761,7 @@
     "unlockLevel": 15,
     "productionTime": null,
     "cost": [],
-    "blocking": "Blocking",
+    "blocking": "Full",
     "maxRank": 9,
     "stats": {
       "ranks": [
