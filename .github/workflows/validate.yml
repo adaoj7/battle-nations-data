@@ -1,0 +1,39 @@
+name: Validate data
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    # Pinned: ubuntu-latest moves to Ubuntu 26 on 2026-10-19.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install --no-audit --no-fund
+          fi
+
+      - name: Validate unit data
+        run: npm run validate
+
+      - name: Check data/units.json is in sync with data/units/
+        run: |
+          npm run build:units-index
+          if ! git diff --exit-code --stat -- data/units.json; then
+            echo "::error file=data/units.json::data/units.json is out of sync with data/units/*.json. Run 'npm run build:units-index' and commit the result."
+            exit 1
+          fi
