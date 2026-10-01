@@ -4,6 +4,14 @@ All notable changes to this repo will be documented here.
 
 ## 2026-10-01
 
+### Added
+
+- 18 Boss Strike reward units (IDs 267–284): AD7 Bigfoot SkyBus, Attack Drone,
+  B10 Wild Boar, B10-C Boar II, C17 Winged Mammoth, F-51 Hell Fire, Falcon's Nest,
+  Flying Dexter Fragment, Minelayer Destroyer, Mini Sub, Navy Trooper,
+  RS-B17 Shadow Hornet, RS17 Shadowwasp, Signal Jamming Drone,
+  Silverwolf Crop Buster, Tri-Wing Terror, UD-4L Gunship and Apex Bullfrog.
+
 ### Fixed
 
 - `blocking` is now `"Full"` for 26 units. 23 of them had the invalid value
