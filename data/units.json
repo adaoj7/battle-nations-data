@@ -3268,7 +3268,121 @@
             "hits": 6,
             "rank": 6
           }
-        ]
+        ],
+        "pattern": {
+          "tiles": [
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 0.029
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 0.206
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 0.618
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 0.735
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 0.618
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 0.206
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 0.029
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 0.029
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 0.265
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.824
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 0.824
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 0.265
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 0.029
+            },
+            {
+              "x": 1,
+              "y": -2,
+              "damageMultiplier": 0.059
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 0.265
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.324
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 0.265
+            },
+            {
+              "x": 1,
+              "y": 2,
+              "damageMultiplier": 0.059
+            },
+            {
+              "x": 2,
+              "y": -1,
+              "damageMultiplier": 0.029
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 0.029
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "damageMultiplier": 0.029
+            }
+          ]
+        }
       }
     ],
     "healCost": {
@@ -4919,21 +5033,21 @@
             },
             {
               "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 1,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
               "y": -1,
               "damageMultiplier": 1
             }
@@ -7015,54 +7129,63 @@
             {
               "x": 0,
               "y": 0,
-              "weight": 0.168
-            },
-            {
-              "x": 0,
-              "y": 1,
-              "weight": 0.113
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "weight": 0.113
-            },
-            {
-              "x": 0,
-              "y": 2,
-              "weight": 0.054
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "weight": 0.054
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "weight": 0.168
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "weight": 0.113
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "weight": 0.113
-            },
-            {
-              "x": 1,
-              "y": 2,
-              "weight": 0.054
-            },
-            {
-              "x": 1,
-              "y": -2,
-              "weight": 0.054
+              "damageMultiplier": 1
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.168
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "weight": 0.113
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "weight": 0.113
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "weight": 0.054
+              },
+              {
+                "x": 0,
+                "y": -2,
+                "weight": 0.054
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "weight": 0.168
+              },
+              {
+                "x": 1,
+                "y": 1,
+                "weight": 0.113
+              },
+              {
+                "x": 1,
+                "y": -1,
+                "weight": 0.113
+              },
+              {
+                "x": 1,
+                "y": 2,
+                "weight": 0.054
+              },
+              {
+                "x": 1,
+                "y": -2,
+                "weight": 0.054
+              }
+            ]
+          }
         }
       }
     ],
@@ -8528,22 +8651,22 @@
             {
               "x": 1,
               "y": 0,
-              "damageMultiplier": 1
+              "damageMultiplier": 0.25
             },
             {
               "x": -1,
               "y": 0,
-              "damageMultiplier": 1
+              "damageMultiplier": 0.25
             },
             {
               "x": 0,
               "y": 1,
-              "damageMultiplier": 1
+              "damageMultiplier": 0.25
             },
             {
               "x": 0,
               "y": -1,
-              "damageMultiplier": 1
+              "damageMultiplier": 0.25
             }
           ],
           "randomCenter": {
@@ -15274,11 +15397,220 @@
           "Ship": false
         },
         "pattern": {
-          "fullArea": true,
           "tiles": [
+            {
+              "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 1
+            },
             {
               "x": 0,
               "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -15378,11 +15710,220 @@
           "Ship": false
         },
         "pattern": {
-          "fullArea": true,
           "tiles": [
+            {
+              "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 1
+            },
             {
               "x": 0,
               "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -19503,22 +20044,22 @@
             },
             {
               "x": 3,
-              "y": -2,
+              "y": -1,
               "damageMultiplier": 0.7
             },
             {
               "x": 3,
-              "y": 2,
+              "y": 1,
               "damageMultiplier": 0.7
             },
             {
               "x": 4,
-              "y": -2,
+              "y": -1,
               "damageMultiplier": 0.6
             },
             {
               "x": 4,
-              "y": 2,
+              "y": 1,
               "damageMultiplier": 0.6
             }
           ]
@@ -19645,22 +20186,22 @@
             },
             {
               "x": 3,
-              "y": -2,
+              "y": -1,
               "damageMultiplier": 0.7
             },
             {
               "x": 3,
-              "y": 2,
+              "y": 1,
               "damageMultiplier": 0.7
             },
             {
               "x": 4,
-              "y": -2,
+              "y": -1,
               "damageMultiplier": 0.6
             },
             {
               "x": 4,
-              "y": 2,
+              "y": 1,
               "damageMultiplier": 0.6
             }
           ]
@@ -20025,16 +20566,23 @@
             {
               "x": 0,
               "y": 0,
-              "damageMultiplier": 1,
-              "hitChance": 0.94
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 1,
-              "hitChance": 0.94
+              "damageMultiplier": 1
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.5
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "weight": 0.5
+              }
+            ]
+          }
         },
         "targetableTypes": {
           "Soldier": true,
@@ -20552,11 +21100,95 @@
         },
         "armorPiercing": 20,
         "pattern": {
-          "fullArea": true,
           "tiles": [
             {
               "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
               "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
               "damageMultiplier": 1
             }
           ]
@@ -20681,16 +21313,6 @@
             {
               "x": 0,
               "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.85
-            },
-            {
-              "x": -1,
-              "y": 0,
               "damageMultiplier": 0.2
             },
             {
@@ -20699,9 +21321,9 @@
               "damageMultiplier": 0.2
             },
             {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 0.2
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 1
             },
             {
               "x": 1,
@@ -20709,12 +21331,22 @@
               "damageMultiplier": 0.2
             },
             {
-              "x": -1,
+              "x": 1,
               "y": 1,
+              "damageMultiplier": 0.2
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 0.85
+            },
+            {
+              "x": 2,
+              "y": -1,
               "damageMultiplier": 0.17
             },
             {
-              "x": 1,
+              "x": 2,
               "y": 1,
               "damageMultiplier": 0.17
             }
@@ -21381,21 +22013,21 @@
             },
             {
               "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 1,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
               "y": -1,
               "damageMultiplier": 1
             }
@@ -23080,11 +23712,50 @@
           "flat": 20
         },
         "pattern": {
-          "rowEffect": true,
           "tiles": [
             {
               "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
               "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
               "damageMultiplier": 1
             }
           ]
@@ -23534,24 +24205,33 @@
             {
               "x": 0,
               "y": 1,
-              "damageMultiplier": 0.65
+              "damageMultiplier": 0.2
             },
             {
               "x": 0,
               "y": -1,
-              "damageMultiplier": 0.65
-            },
-            {
-              "x": 0,
-              "y": 2,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 0.09
+              "damageMultiplier": 0.2
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.46
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "weight": 0.27
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "weight": 0.27
+              }
+            ]
+          }
         },
         "targetableTypes": {
           "Soldier": false,
@@ -26353,13 +27033,8 @@
         "pattern": {
           "tiles": [
             {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 0,
+              "x": -2,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
@@ -26368,83 +27043,23 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
+              "x": -2,
               "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 3,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
               "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -26453,8 +27068,63 @@
               "damageMultiplier": 1
             },
             {
-              "x": -1,
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
               "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
@@ -31790,13 +32460,8 @@
         "pattern": {
           "tiles": [
             {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 0,
+              "x": -2,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
@@ -31805,83 +32470,23 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
+              "x": -2,
               "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 3,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
               "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -31890,8 +32495,63 @@
               "damageMultiplier": 1
             },
             {
-              "x": -1,
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
               "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
@@ -37082,7 +37742,76 @@
               "y": 0,
               "damageMultiplier": 1
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": -2,
+                "weight": 0.077
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "weight": 0.077
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.077
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "weight": 0.077
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": -2,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": -1,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": 1,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": 2,
+                "weight": 0.077
+              },
+              {
+                "x": 2,
+                "y": -1,
+                "weight": 0.077
+              },
+              {
+                "x": 2,
+                "y": 0,
+                "weight": 0.077
+              },
+              {
+                "x": 2,
+                "y": 1,
+                "weight": 0.077
+              }
+            ]
+          }
         },
         "unlockCost": {
           "time": 4320,
@@ -39362,13 +40091,8 @@
         "pattern": {
           "tiles": [
             {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 0,
+              "x": -2,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
@@ -39377,83 +40101,23 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
+              "x": -2,
               "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 3,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
               "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -39462,8 +40126,63 @@
               "damageMultiplier": 1
             },
             {
-              "x": -1,
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
               "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
@@ -39916,13 +40635,8 @@
         "pattern": {
           "tiles": [
             {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 0,
+              "x": -2,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
@@ -39931,83 +40645,23 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
+              "x": -2,
               "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": 2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 3,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
               "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -40016,8 +40670,63 @@
               "damageMultiplier": 1
             },
             {
-              "x": -1,
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
               "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
@@ -47010,7 +47719,17 @@
           "tiles": [
             {
               "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
               "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
@@ -48150,16 +48869,6 @@
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.5
-            },
-            {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 0.5
             }
           ],
           "randomCenter": {
@@ -48167,17 +48876,17 @@
               {
                 "x": 0,
                 "y": 0,
-                "weight": 0.88
+                "weight": 0.5
               },
               {
                 "x": 0,
                 "y": -1,
-                "weight": 0.06
+                "weight": 0.25
               },
               {
                 "x": 0,
                 "y": 1,
-                "weight": 0.06
+                "weight": 0.25
               }
             ]
           }
@@ -51724,8 +52433,8 @@
             {
               "x": -1,
               "y": -1,
-              "damageMultiplier": 0.015,
-              "hitChance": 0.07
+              "damageMultiplier": 0.137,
+              "hitChance": 0.38
             },
             {
               "x": 0,
@@ -51736,8 +52445,8 @@
             {
               "x": 1,
               "y": -1,
-              "damageMultiplier": 0.015,
-              "hitChance": 0.07
+              "damageMultiplier": 0.137,
+              "hitChance": 0.38
             },
             {
               "x": -2,
@@ -51790,8 +52499,8 @@
             {
               "x": -1,
               "y": 1,
-              "damageMultiplier": 0.015,
-              "hitChance": 0.07
+              "damageMultiplier": 0.137,
+              "hitChance": 0.38
             },
             {
               "x": 0,
@@ -51802,8 +52511,8 @@
             {
               "x": 1,
               "y": 1,
-              "damageMultiplier": 0.015,
-              "hitChance": 0.07
+              "damageMultiplier": 0.137,
+              "hitChance": 0.38
             },
             {
               "x": 2,
@@ -52628,78 +53337,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -4,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
               "x": -2,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 4,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -52708,8 +53347,78 @@
               "damageMultiplier": 1
             },
             {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 0,
               "damageMultiplier": 1
             },
             {
@@ -53162,8 +53871,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 1
             }
           ]
@@ -53603,8 +54312,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 1
             }
           ]
@@ -59521,8 +60230,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 1
             }
           ]
@@ -59960,8 +60669,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 1
             }
           ]
@@ -64801,8 +65510,8 @@
         "pattern": {
           "tiles": [
             {
-              "x": -1,
-              "y": 0,
+              "x": 0,
+              "y": -1,
               "damageMultiplier": 1
             },
             {
@@ -64811,8 +65520,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
+              "x": 0,
+              "y": 1,
               "damageMultiplier": 1
             }
           ]
@@ -65205,8 +65914,8 @@
         "pattern": {
           "tiles": [
             {
-              "x": -1,
-              "y": 0,
+              "x": 0,
+              "y": -1,
               "damageMultiplier": 1
             },
             {
@@ -65215,8 +65924,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
+              "x": 0,
+              "y": 1,
               "damageMultiplier": 1
             }
           ]
@@ -66985,33 +67694,28 @@
         "pattern": {
           "tiles": [
             {
-              "x": -2,
+              "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": -1,
-              "y": 0,
+              "x": 1,
+              "y": 1,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
+              "x": 1,
               "y": -1,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 0,
+              "x": -1,
+              "y": 1,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": -1,
+              "y": -1,
               "damageMultiplier": 1
             },
             {
@@ -67020,12 +67724,17 @@
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
+              "x": 0,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
               "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": 0,
               "damageMultiplier": 1
             }
@@ -67682,98 +68391,58 @@
         "pattern": {
           "tiles": [
             {
-              "x": -3,
-              "y": -2,
-              "damageMultiplier": 0.75
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 0.481
             },
             {
               "x": -2,
               "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 0.741
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 0.741
+            },
+            {
+              "x": -2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 0.741
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 0.481
+            },
+            {
+              "x": -1,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
               "x": -1,
               "y": -2,
-              "damageMultiplier": 0.75
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -2,
-              "damageMultiplier": 0.75
-            },
-            {
-              "x": 2,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": -2,
-              "damageMultiplier": 0.5
-            },
-            {
-              "x": -4,
-              "y": -1,
-              "damageMultiplier": 0.75
-            },
-            {
-              "x": -3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
               "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 4,
-              "y": -1,
-              "damageMultiplier": 0.5
-            },
-            {
-              "x": -4,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -3,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": 0,
               "damageMultiplier": 1
             },
             {
@@ -67782,89 +68451,54 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 4,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -4,
-              "y": 1,
-              "damageMultiplier": 0.5
-            },
-            {
-              "x": -3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
               "x": -1,
               "y": 1,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 4,
-              "y": 1,
-              "damageMultiplier": 0.75
-            },
-            {
-              "x": -3,
-              "y": 2,
-              "damageMultiplier": 0.5
-            },
-            {
-              "x": -2,
+              "x": -1,
               "y": 2,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 2,
-              "damageMultiplier": 0.75
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 0.741
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 1
             },
             {
               "x": 0,
@@ -67872,9 +68506,84 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 0.741
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": 2,
-              "damageMultiplier": 0.75
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 0.481
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 0.741
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -1,
+              "damageMultiplier": 0.741
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "damageMultiplier": 0.741
             },
             {
               "x": 2,
@@ -67882,9 +68591,9 @@
               "damageMultiplier": 1
             },
             {
-              "x": 3,
-              "y": 2,
-              "damageMultiplier": 0.75
+              "x": 2,
+              "y": 3,
+              "damageMultiplier": 0.481
             }
           ]
         },
@@ -67978,29 +68687,24 @@
         "pattern": {
           "tiles": [
             {
-              "x": 0,
-              "y": -2,
+              "x": -1,
+              "y": -1,
               "damageMultiplier": 0.25
             },
             {
               "x": -1,
-              "y": -1,
+              "y": 1,
+              "damageMultiplier": 0.25
+            },
+            {
+              "x": 0,
+              "y": -2,
               "damageMultiplier": 0.25
             },
             {
               "x": 0,
               "y": -1,
               "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 0.25
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 0.25
             },
             {
               "x": 0,
@@ -68008,28 +68712,23 @@
               "damageMultiplier": 0.5
             },
             {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.25
-            },
-            {
-              "x": -1,
-              "y": 1,
-              "damageMultiplier": 0.25
-            },
-            {
               "x": 0,
               "y": 1,
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 1,
+              "x": 0,
+              "y": 2,
               "damageMultiplier": 0.25
             },
             {
-              "x": 0,
-              "y": 2,
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 0.25
+            },
+            {
+              "x": 1,
+              "y": 1,
               "damageMultiplier": 0.25
             }
           ]
@@ -72142,32 +72841,37 @@
           "tiles": [
             {
               "x": 0,
-              "y": -2,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
             {
               "x": 1,
-              "y": 0,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
@@ -72176,13 +72880,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 2,
+              "x": -2,
+              "y": 0,
               "damageMultiplier": 1
             }
           ]
@@ -76652,17 +77351,32 @@
               {
                 "x": 0,
                 "y": -1,
-                "weight": 0.333
+                "weight": 0.167
               },
               {
                 "x": 0,
                 "y": 0,
-                "weight": 0.334
+                "weight": 0.167
               },
               {
                 "x": 0,
                 "y": 1,
-                "weight": 0.333
+                "weight": 0.167
+              },
+              {
+                "x": 1,
+                "y": -1,
+                "weight": 0.167
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "weight": 0.167
+              },
+              {
+                "x": 1,
+                "y": 1,
+                "weight": 0.167
               }
             ]
           }
@@ -82645,8 +83359,8 @@
         "pattern": {
           "tiles": [
             {
-              "x": -2,
-              "y": 0,
+              "x": 0,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
@@ -82655,13 +83369,13 @@
               "damageMultiplier": 1
             },
             {
-              "x": 2,
-              "y": 0,
+              "x": 0,
+              "y": 2,
               "damageMultiplier": 1
             },
             {
-              "x": -1,
-              "y": 1,
+              "x": 1,
+              "y": -1,
               "damageMultiplier": 1
             },
             {
@@ -82670,8 +83384,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 2,
+              "x": 2,
+              "y": 0,
               "damageMultiplier": 1
             }
           ]
@@ -83720,29 +84434,9 @@
               "damageMultiplier": 0.2
             },
             {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 0.2
-            },
-            {
               "x": -1,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
+              "damageMultiplier": 0.2
             },
             {
               "x": -1,
@@ -83751,7 +84445,27 @@
             },
             {
               "x": 0,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
               "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 0.2
+            },
+            {
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 0.2
             },
             {
@@ -84206,13 +84920,13 @@
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
+              "x": 0,
+              "y": 1,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 0.5
             },
             {
@@ -84357,13 +85071,13 @@
             },
             {
               "x": 1,
-              "y": 1,
+              "y": -1,
               "damageMultiplier": 0.9
             },
             {
               "x": 2,
-              "y": 2,
-              "damageMultiplier": 0.75
+              "y": -2,
+              "damageMultiplier": 0.751
             }
           ]
         }
@@ -85577,19 +86291,29 @@
           "randomCenter": {
             "offsets": [
               {
+                "x": -2,
+                "y": 0,
+                "weight": 0.091
+              },
+              {
                 "x": -1,
                 "y": 0,
-                "weight": 0.275
+                "weight": 0.181
               },
               {
                 "x": 0,
                 "y": 0,
-                "weight": 0.45
+                "weight": 0.457
               },
               {
                 "x": 1,
                 "y": 0,
-                "weight": 0.275
+                "weight": 0.181
+              },
+              {
+                "x": 2,
+                "y": 0,
+                "weight": 0.091
               }
             ]
           }
@@ -86371,6 +87095,106 @@
         "pattern": {
           "tiles": [
             {
+              "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": -2,
               "damageMultiplier": 1
@@ -86396,6 +87220,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -2,
               "damageMultiplier": 1
@@ -86421,6 +87265,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -1,
               "damageMultiplier": 1
@@ -86433,6 +87297,16 @@
             {
               "x": 2,
               "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -86554,6 +87428,106 @@
         "pattern": {
           "tiles": [
             {
+              "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": -2,
               "damageMultiplier": 1
@@ -86579,6 +87553,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -2,
               "damageMultiplier": 1
@@ -86604,6 +87598,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -1,
               "damageMultiplier": 1
@@ -86616,6 +87630,16 @@
             {
               "x": 2,
               "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -91832,65 +92856,79 @@
           "tiles": [
             {
               "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 1,
               "damageMultiplier": 1
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": -2,
+                "weight": 0.077
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "weight": 0.077
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.077
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "weight": 0.077
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": -2,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": -1,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": 1,
+                "weight": 0.077
+              },
+              {
+                "x": 1,
+                "y": 2,
+                "weight": 0.077
+              },
+              {
+                "x": 2,
+                "y": -1,
+                "weight": 0.077
+              },
+              {
+                "x": 2,
+                "y": 0,
+                "weight": 0.077
+              },
+              {
+                "x": 2,
+                "y": 1,
+                "weight": 0.077
+              }
+            ]
+          }
         },
         "armorPiercing": 75,
         "suppressionMod": {
@@ -91993,35 +93031,44 @@
           "tiles": [
             {
               "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 1,
               "damageMultiplier": 1
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": -1,
+                "weight": 0.167
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.167
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "weight": 0.167
+              },
+              {
+                "x": 1,
+                "y": -1,
+                "weight": 0.167
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "weight": 0.167
+              },
+              {
+                "x": 1,
+                "y": 1,
+                "weight": 0.167
+              }
+            ]
+          }
         },
         "cooldown": 8,
         "armorPiercing": 75,
@@ -94781,6 +95828,16 @@
           "tiles": [
             {
               "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": -2,
               "damageMultiplier": 1
             },
@@ -94805,6 +95862,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": -1,
               "y": -2,
               "damageMultiplier": 1
@@ -94830,6 +95907,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": -2,
               "damageMultiplier": 1
@@ -94855,6 +95952,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -2,
               "damageMultiplier": 1
@@ -94880,6 +95997,21 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -2,
               "damageMultiplier": 1
@@ -94902,6 +96034,11 @@
             {
               "x": 2,
               "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -95000,6 +96137,16 @@
           "tiles": [
             {
               "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": -2,
               "damageMultiplier": 1
             },
@@ -95024,6 +96171,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": -1,
               "y": -2,
               "damageMultiplier": 1
@@ -95049,6 +96216,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": -2,
               "damageMultiplier": 1
@@ -95074,6 +96261,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -2,
               "damageMultiplier": 1
@@ -95099,6 +96306,21 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -2,
               "damageMultiplier": 1
@@ -95121,6 +96343,11 @@
             {
               "x": 2,
               "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -96280,43 +97507,23 @@
           "tiles": [
             {
               "x": 0,
+              "y": -2,
+              "damageMultiplier": 0.101
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.348
+            },
+            {
+              "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.348
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 0.348
-            },
-            {
               "x": 0,
               "y": 1,
               "damageMultiplier": 0.348
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.348
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 0.15
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 0.15
-            },
-            {
-              "x": 2,
-              "y": 0,
-              "damageMultiplier": 0.101
             },
             {
               "x": 0,
@@ -96324,8 +97531,23 @@
               "damageMultiplier": 0.101
             },
             {
-              "x": 0,
-              "y": -2,
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 0.15
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.348
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 0.15
+            },
+            {
+              "x": 2,
+              "y": 0,
               "damageMultiplier": 0.101
             }
           ]
@@ -97428,131 +98650,140 @@
         "pattern": {
           "tiles": [
             {
-              "x": -3,
-              "y": 0,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": -2,
-              "y": -1,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": -2,
-              "y": 0,
-              "damageMultiplier": 0.36
-            },
-            {
-              "x": -2,
-              "y": 1,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": -1,
-              "y": -2,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 0.36
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 0.69
-            },
-            {
-              "x": -1,
-              "y": 1,
-              "damageMultiplier": 0.36
-            },
-            {
-              "x": -1,
-              "y": 2,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": 0,
-              "y": -3,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 0.36
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.69
-            },
-            {
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.65
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 0.65
+            },
+            {
               "x": 0,
               "y": 1,
-              "damageMultiplier": 0.69
+              "damageMultiplier": 0.65
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.65
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 0.3
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 0.3
             },
             {
               "x": 0,
               "y": 2,
-              "damageMultiplier": 0.36
+              "damageMultiplier": 0.3
             },
             {
               "x": 0,
-              "y": 3,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": 1,
               "y": -2,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 0.36
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.69
+              "damageMultiplier": 0.3
             },
             {
               "x": 1,
               "y": 1,
-              "damageMultiplier": 0.36
+              "damageMultiplier": 0.3
             },
             {
               "x": 1,
-              "y": 2,
-              "damageMultiplier": 0.09
-            },
-            {
-              "x": 2,
               "y": -1,
-              "damageMultiplier": 0.09
+              "damageMultiplier": 0.3
             },
             {
-              "x": 2,
-              "y": 0,
-              "damageMultiplier": 0.36
-            },
-            {
-              "x": 2,
+              "x": -1,
               "y": 1,
-              "damageMultiplier": 0.09
+              "damageMultiplier": 0.3
             },
             {
-              "x": 3,
-              "y": 0,
-              "damageMultiplier": 0.09
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 0.3
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.4996
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "weight": 0.0924
+              },
+              {
+                "x": -1,
+                "y": 0,
+                "weight": 0.0924
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "weight": 0.0925
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "weight": 0.0925
+              },
+              {
+                "x": 1,
+                "y": 1,
+                "weight": 0.0138
+              },
+              {
+                "x": 1,
+                "y": -1,
+                "weight": 0.0138
+              },
+              {
+                "x": -1,
+                "y": 1,
+                "weight": 0.0138
+              },
+              {
+                "x": -1,
+                "y": -1,
+                "weight": 0.0138
+              },
+              {
+                "x": 2,
+                "y": 0,
+                "weight": 0.0191
+              },
+              {
+                "x": -2,
+                "y": 0,
+                "weight": 0.0191
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "weight": 0.0186
+              },
+              {
+                "x": 0,
+                "y": -2,
+                "weight": 0.0186
+              }
+            ]
+          }
         },
         "cooldown": 4,
         "ammo": -1,
@@ -97918,13 +99149,22 @@
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 1
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.5
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "weight": 0.5
+              }
+            ]
+          }
         },
         "cooldown": 3,
         "suppressionMod": {
@@ -99229,128 +100469,108 @@
             "offsets": [
               {
                 "x": -2,
-                "y": -2,
-                "weight": 0.013015
-              },
-              {
-                "x": -2,
                 "y": -1,
-                "weight": 0.013015
+                "weight": 0.0104
               },
               {
                 "x": -2,
                 "y": 0,
-                "weight": 0.02603
+                "weight": 0.0197
               },
               {
                 "x": -2,
                 "y": 1,
-                "weight": 0.013015
-              },
-              {
-                "x": -2,
-                "y": 2,
-                "weight": 0.013015
+                "weight": 0.0104
               },
               {
                 "x": -1,
                 "y": -2,
-                "weight": 0.013015
+                "weight": 0.0104
               },
               {
                 "x": -1,
                 "y": -1,
-                "weight": 0.047722
+                "weight": 0.0404
               },
               {
                 "x": -1,
                 "y": 0,
-                "weight": 0.086768
+                "weight": 0.0808
               },
               {
                 "x": -1,
                 "y": 1,
-                "weight": 0.047722
+                "weight": 0.0404
               },
               {
                 "x": -1,
                 "y": 2,
-                "weight": 0.013015
+                "weight": 0.0104
               },
               {
                 "x": 0,
                 "y": -2,
-                "weight": 0.02603
+                "weight": 0.0197
               },
               {
                 "x": 0,
                 "y": -1,
-                "weight": 0.086768
+                "weight": 0.0808
               },
               {
                 "x": 0,
                 "y": 0,
-                "weight": 0.201735
+                "weight": 0.3534
               },
               {
                 "x": 0,
                 "y": 1,
-                "weight": 0.086768
+                "weight": 0.0808
               },
               {
                 "x": 0,
                 "y": 2,
-                "weight": 0.02603
+                "weight": 0.0197
               },
               {
                 "x": 1,
                 "y": -2,
-                "weight": 0.013015
+                "weight": 0.0104
               },
               {
                 "x": 1,
                 "y": -1,
-                "weight": 0.047722
+                "weight": 0.0404
               },
               {
                 "x": 1,
                 "y": 0,
-                "weight": 0.086768
+                "weight": 0.0808
               },
               {
                 "x": 1,
                 "y": 1,
-                "weight": 0.047722
+                "weight": 0.0404
               },
               {
                 "x": 1,
                 "y": 2,
-                "weight": 0.013015
-              },
-              {
-                "x": 2,
-                "y": -2,
-                "weight": 0.013015
+                "weight": 0.0104
               },
               {
                 "x": 2,
                 "y": -1,
-                "weight": 0.013015
+                "weight": 0.0104
               },
               {
                 "x": 2,
                 "y": 0,
-                "weight": 0.02603
+                "weight": 0.0197
               },
               {
                 "x": 2,
                 "y": 1,
-                "weight": 0.013015
-              },
-              {
-                "x": 2,
-                "y": 2,
-                "weight": 0.013015
+                "weight": 0.0104
               }
             ]
           }
@@ -100022,17 +101242,22 @@
           "tiles": [
             {
               "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": 0,
               "damageMultiplier": 1
             },
             {
               "x": -2,
-              "y": 1,
+              "y": 2,
               "damageMultiplier": 1
             },
             {
-              "x": -2,
-              "y": 2,
+              "x": -1,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
@@ -100042,17 +101267,17 @@
             },
             {
               "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
               "y": 1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
               "damageMultiplier": 1
             },
             {
@@ -100062,17 +101287,7 @@
             },
             {
               "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -100081,18 +101296,18 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
-              "y": -2,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
               "x": 1,
               "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
               "damageMultiplier": 1
             },
             {
@@ -100101,18 +101316,23 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -2,
               "damageMultiplier": 1
             },
             {
               "x": 2,
-              "y": -1,
+              "y": 0,
               "damageMultiplier": 1
             },
             {
               "x": 2,
-              "y": 0,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
@@ -101905,107 +103125,107 @@
               {
                 "x": -2,
                 "y": -1,
-                "weight": 0.015123
+                "weight": 0.0104
               },
               {
                 "x": -2,
                 "y": 0,
-                "weight": 0.028355
+                "weight": 0.0197
               },
               {
                 "x": -2,
                 "y": 1,
-                "weight": 0.015123
+                "weight": 0.0104
               },
               {
                 "x": -1,
                 "y": -2,
-                "weight": 0.015123
+                "weight": 0.0104
               },
               {
                 "x": -1,
                 "y": -1,
-                "weight": 0.05293
+                "weight": 0.0404
               },
               {
                 "x": -1,
                 "y": 0,
-                "weight": 0.092628
+                "weight": 0.0808
               },
               {
                 "x": -1,
                 "y": 1,
-                "weight": 0.05293
+                "weight": 0.0404
               },
               {
                 "x": -1,
                 "y": 2,
-                "weight": 0.015123
+                "weight": 0.0104
               },
               {
                 "x": 0,
                 "y": -2,
-                "weight": 0.028355
+                "weight": 0.0197
               },
               {
                 "x": 0,
                 "y": -1,
-                "weight": 0.092628
+                "weight": 0.0808
               },
               {
                 "x": 0,
                 "y": 0,
-                "weight": 0.183365
+                "weight": 0.3534
               },
               {
                 "x": 0,
                 "y": 1,
-                "weight": 0.092628
+                "weight": 0.0808
               },
               {
                 "x": 0,
                 "y": 2,
-                "weight": 0.028355
+                "weight": 0.0197
               },
               {
                 "x": 1,
                 "y": -2,
-                "weight": 0.015123
+                "weight": 0.0104
               },
               {
                 "x": 1,
                 "y": -1,
-                "weight": 0.05293
+                "weight": 0.0404
               },
               {
                 "x": 1,
                 "y": 0,
-                "weight": 0.092628
+                "weight": 0.0808
               },
               {
                 "x": 1,
                 "y": 1,
-                "weight": 0.05293
+                "weight": 0.0404
               },
               {
                 "x": 1,
                 "y": 2,
-                "weight": 0.015123
+                "weight": 0.0104
               },
               {
                 "x": 2,
                 "y": -1,
-                "weight": 0.015123
+                "weight": 0.0104
               },
               {
                 "x": 2,
                 "y": 0,
-                "weight": 0.028355
+                "weight": 0.0197
               },
               {
                 "x": 2,
                 "y": 1,
-                "weight": 0.015123
+                "weight": 0.0104
               }
             ]
           }
@@ -102735,8 +103955,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 1
             }
           ]
@@ -103613,17 +104833,22 @@
           "tiles": [
             {
               "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": 0,
               "damageMultiplier": 1
             },
             {
               "x": -2,
-              "y": 1,
+              "y": 2,
               "damageMultiplier": 1
             },
             {
-              "x": -2,
-              "y": 2,
+              "x": -1,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
@@ -103633,17 +104858,17 @@
             },
             {
               "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
               "y": 1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
               "damageMultiplier": 1
             },
             {
@@ -103653,17 +104878,7 @@
             },
             {
               "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -103672,18 +104887,18 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
-              "y": -2,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
               "x": 1,
               "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
               "damageMultiplier": 1
             },
             {
@@ -103692,18 +104907,23 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -2,
               "damageMultiplier": 1
             },
             {
               "x": 2,
-              "y": -1,
+              "y": 0,
               "damageMultiplier": 1
             },
             {
               "x": 2,
-              "y": 0,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
@@ -104115,13 +105335,13 @@
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": 1,
+              "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": 1,
-              "y": 0,
+              "y": 1,
               "damageMultiplier": 1
             }
           ]
@@ -104251,6 +105471,26 @@
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.5
             }
           ]
         },
@@ -104398,8 +105638,48 @@
           "tiles": [
             {
               "x": 0,
+              "y": -2,
+              "damageMultiplier": 0.101
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.348
+            },
+            {
+              "x": 0,
               "y": 0,
               "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 0.348
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 0.101
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 0.15
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.348
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 0.15
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 0.101
             }
           ]
         },
@@ -104798,8 +106078,23 @@
           "tiles": [
             {
               "x": 0,
+              "y": -4,
+              "damageMultiplier": 0.062
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 0,
               "y": -1,
-              "damageMultiplier": 1
+              "damageMultiplier": 0.497
             },
             {
               "x": 0,
@@ -104809,7 +106104,157 @@
             {
               "x": 0,
               "y": 1,
+              "damageMultiplier": 0.497
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 0.062
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 0.062
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 1,
+              "y": -2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 0.497
+            },
+            {
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 0.497
+            },
+            {
+              "x": 1,
+              "y": 2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 0.062
+            },
+            {
+              "x": 2,
+              "y": -4,
+              "damageMultiplier": 0.062
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 2,
+              "y": -1,
+              "damageMultiplier": 0.497
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "damageMultiplier": 0.497
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 2,
+              "y": 3,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 2,
+              "y": 4,
+              "damageMultiplier": 0.062
+            },
+            {
+              "x": 3,
+              "y": -4,
+              "damageMultiplier": 0.062
+            },
+            {
+              "x": 3,
+              "y": -3,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 3,
+              "y": -2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 3,
+              "y": -1,
+              "damageMultiplier": 0.497
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 3,
+              "y": 1,
+              "damageMultiplier": 0.497
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 3,
+              "y": 3,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "damageMultiplier": 0.062
             }
           ]
         },
@@ -105826,16 +107271,26 @@
           "tiles": [
             {
               "x": 0,
-              "y": 0,
+              "y": -4,
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
+              "x": 0,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
-              "x": -1,
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
@@ -105846,7 +107301,17 @@
             },
             {
               "x": 0,
-              "y": -1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
               "damageMultiplier": 1
             }
           ]
@@ -106213,6 +107678,16 @@
           "tiles": [
             {
               "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
               "y": -2,
               "damageMultiplier": 1
             },
@@ -106234,6 +107709,16 @@
             {
               "x": 0,
               "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
               "damageMultiplier": 1
             }
           ]
@@ -107577,43 +109062,18 @@
         "pattern": {
           "tiles": [
             {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.686
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 0.126
             },
             {
               "x": -1,
               "y": 0,
-              "damageMultiplier": 0.686
+              "damageMultiplier": 0.189
             },
             {
-              "x": 2,
-              "y": 0,
-              "damageMultiplier": 0.126
-            },
-            {
-              "x": -2,
-              "y": 0,
-              "damageMultiplier": 0.126
-            },
-            {
-              "x": 0,
+              "x": -1,
               "y": 1,
-              "damageMultiplier": 0.189
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.189
-            },
-            {
-              "x": 0,
-              "y": 2,
               "damageMultiplier": 0.126
             },
             {
@@ -107622,8 +109082,23 @@
               "damageMultiplier": 0.126
             },
             {
-              "x": 1,
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.686
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
               "y": 1,
+              "damageMultiplier": 0.686
+            },
+            {
+              "x": 0,
+              "y": 2,
               "damageMultiplier": 0.126
             },
             {
@@ -107632,13 +109107,13 @@
               "damageMultiplier": 0.126
             },
             {
-              "x": -1,
-              "y": 1,
-              "damageMultiplier": 0.126
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.189
             },
             {
-              "x": -1,
-              "y": -1,
+              "x": 1,
+              "y": 1,
               "damageMultiplier": 0.126
             }
           ]
@@ -107769,6 +109244,16 @@
           "tiles": [
             {
               "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": -2,
               "damageMultiplier": 1
             },
@@ -107793,6 +109278,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": -1,
               "y": -2,
               "damageMultiplier": 1
@@ -107818,6 +109323,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": -2,
               "damageMultiplier": 1
@@ -107843,6 +109368,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -2,
               "damageMultiplier": 1
@@ -107868,6 +109413,21 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -2,
               "damageMultiplier": 1
@@ -107890,6 +109450,11 @@
             {
               "x": 2,
               "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -107975,6 +109540,16 @@
           "tiles": [
             {
               "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": -2,
               "damageMultiplier": 1
             },
@@ -107999,6 +109574,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": -1,
               "y": -2,
               "damageMultiplier": 1
@@ -108024,6 +109619,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": -2,
               "damageMultiplier": 1
@@ -108049,6 +109664,26 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -2,
               "damageMultiplier": 1
@@ -108074,6 +109709,21 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -2,
               "damageMultiplier": 1
@@ -108096,6 +109746,11 @@
             {
               "x": 2,
               "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -108656,33 +110311,48 @@
           "tiles": [
             {
               "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
               "damageMultiplier": 1
             },
             {
               "x": 1,
               "y": -1,
-              "damageMultiplier": 0.665
+              "damageMultiplier": 0.75
             },
             {
               "x": 1,
               "y": 0,
-              "damageMultiplier": 0.665
+              "damageMultiplier": 0.75
             },
             {
               "x": 1,
               "y": 1,
-              "damageMultiplier": 0.665
+              "damageMultiplier": 0.75
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": 2,
+              "y": -1,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "damageMultiplier": 0.5
             }
           ]
         },
@@ -110281,23 +111951,23 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
               "damageMultiplier": 1
             }
           ]
@@ -111301,28 +112971,83 @@
         "pattern": {
           "tiles": [
             {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 0.198
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 0.198
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 0.198
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 0.75
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 0.198
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.75
+            },
+            {
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.75
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 0.75
-            },
-            {
               "x": 0,
               "y": 1,
               "damageMultiplier": 0.75
             },
             {
               "x": 0,
+              "y": 2,
+              "damageMultiplier": 0.349
+            },
+            {
+              "x": 1,
+              "y": -2,
+              "damageMultiplier": 0.198
+            },
+            {
+              "x": 1,
               "y": -1,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 0.75
             },
             {
@@ -111332,97 +113057,22 @@
             },
             {
               "x": 1,
-              "y": -1,
-              "damageMultiplier": 0.5
-            },
-            {
-              "x": -1,
-              "y": 1,
-              "damageMultiplier": 0.5
-            },
-            {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 0.5
-            },
-            {
-              "x": 2,
-              "y": 1,
-              "damageMultiplier": 0.349
+              "y": 2,
+              "damageMultiplier": 0.198
             },
             {
               "x": 2,
               "y": -1,
-              "damageMultiplier": 0.349
-            },
-            {
-              "x": -2,
-              "y": 1,
-              "damageMultiplier": 0.349
-            },
-            {
-              "x": -2,
-              "y": -1,
-              "damageMultiplier": 0.349
-            },
-            {
-              "x": 1,
-              "y": 2,
-              "damageMultiplier": 0.349
-            },
-            {
-              "x": 1,
-              "y": -2,
-              "damageMultiplier": 0.349
-            },
-            {
-              "x": -1,
-              "y": 2,
-              "damageMultiplier": 0.349
-            },
-            {
-              "x": -1,
-              "y": -2,
-              "damageMultiplier": 0.349
+              "damageMultiplier": 0.198
             },
             {
               "x": 2,
               "y": 0,
-              "damageMultiplier": 0.198
-            },
-            {
-              "x": -2,
-              "y": 0,
-              "damageMultiplier": 0.198
-            },
-            {
-              "x": 0,
-              "y": 2,
-              "damageMultiplier": 0.198
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 0.198
+              "damageMultiplier": 0.349
             },
             {
               "x": 2,
-              "y": 2,
-              "damageMultiplier": 0.198
-            },
-            {
-              "x": 2,
-              "y": -2,
-              "damageMultiplier": 0.198
-            },
-            {
-              "x": -2,
-              "y": 2,
-              "damageMultiplier": 0.198
-            },
-            {
-              "x": -2,
-              "y": -2,
+              "y": 1,
               "damageMultiplier": 0.198
             }
           ]
@@ -112121,17 +113771,17 @@
             },
             {
               "x": -2,
-              "y": -1,
+              "y": 0,
               "damageMultiplier": 1
             },
             {
               "x": -2,
-              "y": 0,
+              "y": 2,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": -2,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
@@ -112141,12 +113791,17 @@
             },
             {
               "x": -1,
-              "y": 0,
+              "y": 1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
               "damageMultiplier": 1
             },
             {
@@ -112156,17 +113811,7 @@
             },
             {
               "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -112175,33 +113820,38 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
               "y": 1,
               "damageMultiplier": 1
             },
             {
               "x": 1,
-              "y": 2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
               "x": 2,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -112613,128 +114263,108 @@
         "pattern": {
           "tiles": [
             {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 0.051
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 0.103
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 0.051
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 0.051
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 0.205
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 0.346
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 0.205
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 0.051
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 0.103
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.346
+            },
+            {
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.346
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 0.346
-            },
-            {
               "x": 0,
               "y": 1,
               "damageMultiplier": 0.346
             },
             {
               "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.346
-            },
-            {
-              "x": 2,
-              "y": 0,
-              "damageMultiplier": 0.205
-            },
-            {
-              "x": -2,
-              "y": 0,
-              "damageMultiplier": 0.205
-            },
-            {
-              "x": 0,
-              "y": 2,
-              "damageMultiplier": 0.205
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 0.205
-            },
-            {
-              "x": 1,
-              "y": 1,
-              "damageMultiplier": 0.205
-            },
-            {
-              "x": 1,
-              "y": -1,
-              "damageMultiplier": 0.205
-            },
-            {
-              "x": -1,
-              "y": 1,
-              "damageMultiplier": 0.205
-            },
-            {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 0.205
-            },
-            {
-              "x": 2,
-              "y": 1,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 2,
-              "y": -1,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": -2,
-              "y": 1,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": -2,
-              "y": -1,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 1,
               "y": 2,
               "damageMultiplier": 0.103
             },
             {
               "x": 1,
               "y": -2,
-              "damageMultiplier": 0.103
+              "damageMultiplier": 0.051
             },
             {
-              "x": -1,
-              "y": 2,
-              "damageMultiplier": 0.103
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 0.205
             },
             {
-              "x": -1,
-              "y": -2,
-              "damageMultiplier": 0.103
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.346
             },
             {
-              "x": 2,
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 0.205
+            },
+            {
+              "x": 1,
               "y": 2,
               "damageMultiplier": 0.051
             },
             {
               "x": 2,
-              "y": -2,
+              "y": -1,
               "damageMultiplier": 0.051
             },
             {
-              "x": -2,
-              "y": 2,
-              "damageMultiplier": 0.051
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 0.103
             },
             {
-              "x": -2,
-              "y": -2,
+              "x": 2,
+              "y": 1,
               "damageMultiplier": 0.051
             }
           ]
@@ -113086,27 +114716,27 @@
             {
               "x": 3,
               "y": -2,
-              "damageMultiplier": 0.487
+              "damageMultiplier": 0.256
             },
             {
               "x": 3,
               "y": -1,
-              "damageMultiplier": 0.487
+              "damageMultiplier": 0.256
             },
             {
               "x": 3,
               "y": 0,
-              "damageMultiplier": 0.487
+              "damageMultiplier": 0.256
             },
             {
               "x": 3,
               "y": 1,
-              "damageMultiplier": 0.487
+              "damageMultiplier": 0.256
             },
             {
               "x": 3,
               "y": 2,
-              "damageMultiplier": 0.487
+              "damageMultiplier": 0.256
             },
             {
               "x": 3,
@@ -113116,96 +114746,41 @@
             {
               "x": 3,
               "y": 4,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 4,
-              "y": -4,
               "damageMultiplier": 0.103
             },
             {
               "x": 4,
               "y": -3,
-              "damageMultiplier": 0.256
+              "damageMultiplier": 0.103
             },
             {
               "x": 4,
               "y": -2,
-              "damageMultiplier": 0.256
+              "damageMultiplier": 0.103
             },
             {
               "x": 4,
               "y": -1,
-              "damageMultiplier": 0.256
+              "damageMultiplier": 0.103
             },
             {
               "x": 4,
               "y": 0,
-              "damageMultiplier": 0.256
+              "damageMultiplier": 0.103
             },
             {
               "x": 4,
               "y": 1,
-              "damageMultiplier": 0.256
+              "damageMultiplier": 0.103
             },
             {
               "x": 4,
               "y": 2,
-              "damageMultiplier": 0.256
+              "damageMultiplier": 0.103
             },
             {
               "x": 4,
               "y": 3,
-              "damageMultiplier": 0.256
-            },
-            {
-              "x": 4,
-              "y": 4,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": -4,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": -3,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": -2,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": -1,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": 0,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": 1,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": 2,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": 3,
-              "damageMultiplier": 0.103
-            },
-            {
-              "x": 5,
-              "y": 4,
               "damageMultiplier": 0.103
             }
           ]
@@ -114637,17 +116212,17 @@
             {
               "x": 0,
               "y": -3,
-              "damageMultiplier": 0.31
+              "damageMultiplier": 0.086
             },
             {
               "x": 0,
               "y": -2,
-              "damageMultiplier": 0.75
+              "damageMultiplier": 0.376
             },
             {
               "x": 0,
               "y": -1,
-              "damageMultiplier": 0.97
+              "damageMultiplier": 0.796
             },
             {
               "x": 0,
@@ -114657,17 +116232,17 @@
             {
               "x": 0,
               "y": 1,
-              "damageMultiplier": 0.97
+              "damageMultiplier": 0.796
             },
             {
               "x": 0,
               "y": 2,
-              "damageMultiplier": 0.75
+              "damageMultiplier": 0.376
             },
             {
               "x": 0,
               "y": 3,
-              "damageMultiplier": 0.31
+              "damageMultiplier": 0.086
             }
           ]
         },
@@ -115432,41 +117007,41 @@
             },
             {
               "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 1,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
+              "x": 1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
               "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": 2,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -2,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 2,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": -2,
               "damageMultiplier": 1
             }
@@ -117383,6 +118958,96 @@
         "pattern": {
           "tiles": [
             {
+              "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": -4,
               "damageMultiplier": 1
@@ -117474,11 +119139,6 @@
             },
             {
               "x": 2,
-              "y": -4,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
               "y": -3,
               "damageMultiplier": 1
             },
@@ -117510,11 +119170,6 @@
             {
               "x": 2,
               "y": 3,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 2,
-              "y": 4,
               "damageMultiplier": 1
             }
           ]
@@ -119055,18 +120710,18 @@
               "damageMultiplier": 1
             },
             {
-              "x": -1,
+              "x": 2,
               "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 1,
+              "x": 3,
+              "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": -1,
+              "x": 4,
+              "y": 0,
               "damageMultiplier": 1
             }
           ]
@@ -119710,17 +121365,22 @@
           "tiles": [
             {
               "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
               "y": 0,
               "damageMultiplier": 1
             },
             {
               "x": -2,
-              "y": 1,
+              "y": 2,
               "damageMultiplier": 1
             },
             {
-              "x": -2,
-              "y": 2,
+              "x": -1,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
@@ -119730,17 +121390,17 @@
             },
             {
               "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
               "y": 1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
-              "y": 2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
               "damageMultiplier": 1
             },
             {
@@ -119750,17 +121410,7 @@
             },
             {
               "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
               "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
               "damageMultiplier": 1
             },
             {
@@ -119769,18 +121419,18 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
-              "y": -2,
+              "y": -3,
               "damageMultiplier": 1
             },
             {
               "x": 1,
               "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
               "damageMultiplier": 1
             },
             {
@@ -119789,18 +121439,23 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -2,
               "damageMultiplier": 1
             },
             {
               "x": 2,
-              "y": -1,
+              "y": 0,
               "damageMultiplier": 1
             },
             {
               "x": 2,
-              "y": 0,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
@@ -120391,6 +122046,16 @@
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.2
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 0.2
             }
           ]
         },
@@ -120500,153 +122165,108 @@
           "tiles": [
             {
               "x": -2,
-              "y": -2,
-              "damageMultiplier": 0.016,
-              "hitChance": 0.1
-            },
-            {
-              "x": -2,
               "y": -1,
-              "damageMultiplier": 0.038,
-              "hitChance": 0.25
+              "damageMultiplier": 0.016
             },
             {
               "x": -2,
               "y": 0,
-              "damageMultiplier": 0.134,
-              "hitChance": 0.52
+              "damageMultiplier": 0.038
             },
             {
               "x": -2,
               "y": 1,
-              "damageMultiplier": 0.038,
-              "hitChance": 0.25
-            },
-            {
-              "x": -2,
-              "y": 2,
-              "damageMultiplier": 0.016,
-              "hitChance": 0.1
+              "damageMultiplier": 0.016
             },
             {
               "x": -1,
               "y": -2,
-              "damageMultiplier": 0.038,
-              "hitChance": 0.25
+              "damageMultiplier": 0.016
             },
             {
               "x": -1,
               "y": -1,
-              "damageMultiplier": 0.134,
-              "hitChance": 0.52
+              "damageMultiplier": 0.134
             },
             {
               "x": -1,
               "y": 0,
-              "damageMultiplier": 0.392,
-              "hitChance": 0.96
+              "damageMultiplier": 0.392
             },
             {
               "x": -1,
               "y": 1,
-              "damageMultiplier": 0.134,
-              "hitChance": 0.52
+              "damageMultiplier": 0.134
             },
             {
               "x": -1,
               "y": 2,
-              "damageMultiplier": 0.038,
-              "hitChance": 0.25
+              "damageMultiplier": 0.016
             },
             {
               "x": 0,
               "y": -2,
-              "damageMultiplier": 0.134,
-              "hitChance": 0.52
+              "damageMultiplier": 0.038
             },
             {
               "x": 0,
               "y": -1,
-              "damageMultiplier": 0.392,
-              "hitChance": 0.96
+              "damageMultiplier": 0.392
             },
             {
               "x": 0,
               "y": 0,
-              "damageMultiplier": 1,
-              "hitChance": 0.99
+              "damageMultiplier": 1
             },
             {
               "x": 0,
               "y": 1,
-              "damageMultiplier": 0.392,
-              "hitChance": 0.96
+              "damageMultiplier": 0.392
             },
             {
               "x": 0,
               "y": 2,
-              "damageMultiplier": 0.134,
-              "hitChance": 0.52
+              "damageMultiplier": 0.038
             },
             {
               "x": 1,
               "y": -2,
-              "damageMultiplier": 0.038,
-              "hitChance": 0.25
+              "damageMultiplier": 0.016
             },
             {
               "x": 1,
               "y": -1,
-              "damageMultiplier": 0.134,
-              "hitChance": 0.52
+              "damageMultiplier": 0.134
             },
             {
               "x": 1,
               "y": 0,
-              "damageMultiplier": 0.392,
-              "hitChance": 0.96
+              "damageMultiplier": 0.392
             },
             {
               "x": 1,
               "y": 1,
-              "damageMultiplier": 0.134,
-              "hitChance": 0.52
+              "damageMultiplier": 0.134
             },
             {
               "x": 1,
               "y": 2,
-              "damageMultiplier": 0.038,
-              "hitChance": 0.25
-            },
-            {
-              "x": 2,
-              "y": -2,
-              "damageMultiplier": 0.016,
-              "hitChance": 0.1
+              "damageMultiplier": 0.016
             },
             {
               "x": 2,
               "y": -1,
-              "damageMultiplier": 0.038,
-              "hitChance": 0.25
+              "damageMultiplier": 0.016
             },
             {
               "x": 2,
               "y": 0,
-              "damageMultiplier": 0.134,
-              "hitChance": 0.52
+              "damageMultiplier": 0.038
             },
             {
               "x": 2,
               "y": 1,
-              "damageMultiplier": 0.038,
-              "hitChance": 0.25
-            },
-            {
-              "x": 2,
-              "y": 2,
-              "damageMultiplier": 0.016,
-              "hitChance": 0.1
+              "damageMultiplier": 0.016
             }
           ]
         },
@@ -122468,28 +124088,37 @@
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 1
             }
-          ]
+          ],
+          "randomCenter": {
+            "offsets": [
+              {
+                "x": 0,
+                "y": 0,
+                "weight": 0.6
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "weight": 0.1
+              },
+              {
+                "x": -1,
+                "y": 0,
+                "weight": 0.1
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "weight": 0.1
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "weight": 0.1
+              }
+            ]
+          }
         },
         "armorPiercing": 10,
         "suppressionMod": {
@@ -122917,47 +124546,47 @@
           "tiles": [
             {
               "x": 0,
+              "y": -2,
+              "damageMultiplier": 0.101
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.351
+            },
+            {
+              "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": -1,
-              "y": 0,
-              "damageMultiplier": 0.351
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.351
-            },
-            {
               "x": 0,
               "y": 1,
               "damageMultiplier": 0.351
             },
             {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 0.101
+            },
+            {
               "x": 1,
-              "y": 0,
+              "y": -1,
               "damageMultiplier": 0.149
             },
             {
-              "x": -1,
-              "y": -1,
-              "damageMultiplier": 0.101
-            },
-            {
-              "x": -1,
-              "y": 1,
-              "damageMultiplier": 0.101
-            },
-            {
               "x": 1,
-              "y": -1,
-              "damageMultiplier": 0.101
+              "y": 0,
+              "damageMultiplier": 0.351
             },
             {
               "x": 1,
               "y": 1,
+              "damageMultiplier": 0.149
+            },
+            {
+              "x": 2,
+              "y": 0,
               "damageMultiplier": 0.101
             }
           ]
@@ -123230,12 +124859,27 @@
             },
             {
               "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
               "y": -1,
               "damageMultiplier": 1
             },
             {
               "x": -1,
               "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
               "damageMultiplier": 1
             },
             {
@@ -123254,6 +124898,16 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -1,
               "damageMultiplier": 1
@@ -123261,6 +124915,11 @@
             {
               "x": 1,
               "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
               "damageMultiplier": 1
             },
             {
@@ -123977,6 +125636,11 @@
           "tiles": [
             {
               "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
               "y": -2,
               "damageMultiplier": 1
             },
@@ -124001,6 +125665,16 @@
               "damageMultiplier": 1
             },
             {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
               "x": 1,
               "y": -2,
               "damageMultiplier": 1
@@ -124023,6 +125697,11 @@
             {
               "x": 1,
               "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -124700,11 +126379,6 @@
           "tiles": [
             {
               "x": -2,
-              "y": -2,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": -2,
               "y": -1,
               "damageMultiplier": 0.2
             },
@@ -124716,11 +126390,6 @@
             {
               "x": -2,
               "y": 1,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": -2,
-              "y": 2,
               "damageMultiplier": 0.2
             },
             {
@@ -124800,11 +126469,6 @@
             },
             {
               "x": 2,
-              "y": -2,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": 2,
               "y": -1,
               "damageMultiplier": 0.2
             },
@@ -124816,11 +126480,6 @@
             {
               "x": 2,
               "y": 1,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": 2,
-              "y": 2,
               "damageMultiplier": 0.2
             }
           ]
@@ -125497,11 +127156,6 @@
           "tiles": [
             {
               "x": -2,
-              "y": -2,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": -2,
               "y": -1,
               "damageMultiplier": 0.2
             },
@@ -125513,11 +127167,6 @@
             {
               "x": -2,
               "y": 1,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": -2,
-              "y": 2,
               "damageMultiplier": 0.2
             },
             {
@@ -125597,11 +127246,6 @@
             },
             {
               "x": 2,
-              "y": -2,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": 2,
               "y": -1,
               "damageMultiplier": 0.2
             },
@@ -125613,11 +127257,6 @@
             {
               "x": 2,
               "y": 1,
-              "damageMultiplier": 0.2
-            },
-            {
-              "x": 2,
-              "y": 2,
               "damageMultiplier": 0.2
             }
           ]
@@ -129887,29 +131526,29 @@
         "pattern": {
           "tiles": [
             {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 0.386
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 0.584
+            },
+            {
               "x": 0,
               "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.6
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.584
             },
             {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 0.6
-            },
-            {
-              "x": 0,
-              "y": -2,
-              "damageMultiplier": 0.4
-            },
-            {
-              "x": 0,
-              "y": 2,
-              "damageMultiplier": 0.4
+              "x": 2,
+              "y": 0,
+              "damageMultiplier": 0.386
             }
           ]
         },
@@ -130054,12 +131693,12 @@
             {
               "x": 0,
               "y": -2,
-              "damageMultiplier": 0.33
+              "damageMultiplier": 0.096
             },
             {
               "x": 0,
               "y": 2,
-              "damageMultiplier": 0.33
+              "damageMultiplier": 0.096
             }
           ]
         },
@@ -131251,28 +132890,28 @@
           "tiles": [
             {
               "x": 0,
+              "y": -4,
+              "damageMultiplier": 0.201
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 0.399
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 0.601
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.799
+            },
+            {
+              "x": 0,
               "y": 0,
               "damageMultiplier": 1
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.8
-            },
-            {
-              "x": 2,
-              "y": 0,
-              "damageMultiplier": 0.6
-            },
-            {
-              "x": 3,
-              "y": 0,
-              "damageMultiplier": 0.4
-            },
-            {
-              "x": 4,
-              "y": 0,
-              "damageMultiplier": 0.2
             }
           ]
         },
@@ -132270,6 +133909,111 @@
         "pattern": {
           "tiles": [
             {
+              "x": -2,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -2,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": -1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": -1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
               "x": 0,
               "y": -1,
               "damageMultiplier": 1
@@ -132282,6 +134026,36 @@
             {
               "x": 0,
               "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
@@ -132300,6 +134074,31 @@
               "damageMultiplier": 1
             },
             {
+              "x": 1,
+              "y": 2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -3,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 2,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
               "x": 2,
               "y": -1,
               "damageMultiplier": 1
@@ -132315,93 +134114,13 @@
               "damageMultiplier": 1
             },
             {
-              "x": 3,
-              "y": -1,
+              "x": 2,
+              "y": 2,
               "damageMultiplier": 1
             },
             {
-              "x": 3,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 3,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 4,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 4,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 4,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 5,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 5,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 5,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 6,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 6,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 6,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 7,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 7,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 7,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 8,
-              "y": -1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 8,
-              "y": 0,
-              "damageMultiplier": 1
-            },
-            {
-              "x": 8,
-              "y": 1,
+              "x": 2,
+              "y": 3,
               "damageMultiplier": 1
             }
           ]
@@ -134371,26 +136090,46 @@
             {
               "x": 0,
               "y": 0,
+              "damageMultiplier": 0.5
+            },
+            {
+              "x": 0,
+              "y": -1,
               "damageMultiplier": 1
             },
             {
-              "x": 1,
-              "y": 0,
+              "x": 0,
+              "y": -2,
               "damageMultiplier": 0.25
             },
             {
               "x": -1,
-              "y": 0,
+              "y": -1,
+              "damageMultiplier": 0.25
+            },
+            {
+              "x": 1,
+              "y": -1,
               "damageMultiplier": 0.25
             },
             {
               "x": 0,
               "y": 1,
-              "damageMultiplier": 0.25
+              "damageMultiplier": 1
             },
             {
               "x": 0,
-              "y": -1,
+              "y": 2,
+              "damageMultiplier": 0.25
+            },
+            {
+              "x": -1,
+              "y": 1,
+              "damageMultiplier": 0.25
+            },
+            {
+              "x": 1,
+              "y": 1,
               "damageMultiplier": 0.25
             }
           ]
@@ -135340,44 +137079,44 @@
         "pattern": {
           "tiles": [
             {
+              "x": 0,
+              "y": 0,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "damageMultiplier": 0.66
+            },
+            {
+              "x": 0,
+              "y": -1,
+              "damageMultiplier": 0.22
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "damageMultiplier": 0.22
+            },
+            {
               "x": -1,
               "y": 0,
-              "damageMultiplier": 0.25
-            },
-            {
-              "x": 0,
-              "y": -1,
-              "damageMultiplier": 0.25
-            },
-            {
-              "x": 0,
-              "y": 0,
-              "damageMultiplier": 1.125
-            },
-            {
-              "x": 0,
-              "y": 1,
-              "damageMultiplier": 0.25
+              "damageMultiplier": 0.22
             },
             {
               "x": 1,
               "y": -1,
-              "damageMultiplier": 0.125
-            },
-            {
-              "x": 1,
-              "y": 0,
-              "damageMultiplier": 0.75
+              "damageMultiplier": 0.12
             },
             {
               "x": 1,
               "y": 1,
-              "damageMultiplier": 0.125
+              "damageMultiplier": 0.12
             },
             {
               "x": 2,
               "y": 0,
-              "damageMultiplier": 0.125
+              "damageMultiplier": 0.12
             }
           ]
         }
