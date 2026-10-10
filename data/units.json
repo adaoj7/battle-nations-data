@@ -52,11 +52,11 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 112
+                "amount": 56
               }
             ],
-            "time": 14400,
-            "sp": 120
+            "time": 3600,
+            "sp": 60
           },
           "rank": 2
         },
@@ -74,11 +74,11 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 432
+                "amount": 216
               }
             ],
-            "time": 43200,
-            "sp": 240
+            "time": 10800,
+            "sp": 120
           },
           "rank": 3
         },
@@ -96,19 +96,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 1648
+                "amount": 824
               },
               {
                 "type": "Iron",
-                "amount": 600
-              },
-              {
-                "type": "Bars",
-                "amount": 2
+                "amount": 300
               }
             ],
-            "time": 86400,
-            "sp": 650
+            "time": 21600,
+            "sp": 325
           },
           "rank": 4
         },
@@ -126,19 +122,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 4832
+                "amount": 2416
               },
               {
                 "type": "Iron",
-                "amount": 1175
-              },
-              {
-                "type": "Bars",
-                "amount": 6
+                "amount": 588
               }
             ],
-            "time": 172800,
-            "sp": 1275
+            "time": 43200,
+            "sp": 638
           },
           "rank": 5
         },
@@ -156,19 +148,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 41860
+                "amount": 20930
               },
               {
                 "type": "Iron",
-                "amount": 5100
-              },
-              {
-                "type": "Laurels",
-                "amount": 2
+                "amount": 2550
               }
             ],
-            "time": 172800,
-            "sp": 15000
+            "time": 43200,
+            "sp": 7500
           },
           "rank": 6
         }
@@ -216,8 +204,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 22,
-              "max": 26
+              "min": 26,
+              "max": 31
             },
             "offense": 46,
             "criticalChance": 5,
@@ -225,8 +213,8 @@
           },
           {
             "damage": {
-              "min": 24,
-              "max": 28
+              "min": 28,
+              "max": 34
             },
             "offense": 51,
             "criticalChance": 5,
@@ -234,8 +222,8 @@
           },
           {
             "damage": {
-              "min": 26,
-              "max": 31
+              "min": 31,
+              "max": 37
             },
             "offense": 56,
             "criticalChance": 5,
@@ -243,8 +231,8 @@
           },
           {
             "damage": {
-              "min": 28,
-              "max": 33
+              "min": 33,
+              "max": 40
             },
             "offense": 61,
             "criticalChance": 5,
@@ -252,8 +240,8 @@
           },
           {
             "damage": {
-              "min": 30,
-              "max": 36
+              "min": 36,
+              "max": 43
             },
             "offense": 66,
             "criticalChance": 5,
@@ -261,8 +249,8 @@
           },
           {
             "damage": {
-              "min": 33,
-              "max": 39
+              "min": 39,
+              "max": 46
             },
             "offense": 71,
             "criticalChance": 5,
@@ -316,8 +304,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 28,
-              "max": 33
+              "min": 33,
+              "max": 40
             },
             "offense": 49,
             "criticalChance": 5,
@@ -326,8 +314,8 @@
           },
           {
             "damage": {
-              "min": 30,
-              "max": 36
+              "min": 36,
+              "max": 43
             },
             "offense": 54,
             "criticalChance": 5,
@@ -336,8 +324,8 @@
           },
           {
             "damage": {
-              "min": 33,
-              "max": 39
+              "min": 39,
+              "max": 46
             },
             "offense": 59,
             "criticalChance": 5,
@@ -409,11 +397,11 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 328
+                "amount": 164
               }
             ],
-            "time": 14400,
-            "sp": 255
+            "time": 3600,
+            "sp": 128
           },
           "rank": 2
         },
@@ -431,11 +419,11 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 1344
+                "amount": 672
               }
             ],
-            "time": 43200,
-            "sp": 640
+            "time": 10800,
+            "sp": 320
           },
           "rank": 3
         },
@@ -453,19 +441,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 4016
+                "amount": 2008
               },
               {
                 "type": "Iron",
-                "amount": 900
-              },
-              {
-                "type": "Bars",
-                "amount": 2
+                "amount": 450
               }
             ],
-            "time": 86400,
-            "sp": 1275
+            "time": 21600,
+            "sp": 638
           },
           "rank": 4
         },
@@ -483,19 +467,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 12432
+                "amount": 6216
               },
               {
                 "type": "Iron",
-                "amount": 1675
-              },
-              {
-                "type": "Bars",
-                "amount": 6
+                "amount": 838
               }
             ],
-            "time": 172800,
-            "sp": 3075
+            "time": 43200,
+            "sp": 1538
           },
           "rank": 5
         },
@@ -513,19 +493,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 65488
+                "amount": 32744
               },
               {
                 "type": "Iron",
-                "amount": 5500
-              },
-              {
-                "type": "Laurels",
-                "amount": 2
+                "amount": 2750
               }
             ],
-            "time": 172800,
-            "sp": 16912
+            "time": 43200,
+            "sp": 8456
           },
           "rank": 6
         }
@@ -683,7 +659,7 @@
               "max": 22
             },
             "offense": 56,
-            "criticalChance": 13,
+            "criticalChance": 33,
             "hits": 2,
             "rank": 3
           },
@@ -693,7 +669,7 @@
               "max": 24
             },
             "offense": 61,
-            "criticalChance": 13,
+            "criticalChance": 33,
             "hits": 2,
             "rank": 4
           },
@@ -703,7 +679,7 @@
               "max": 26
             },
             "offense": 66,
-            "criticalChance": 13,
+            "criticalChance": 33,
             "hits": 2,
             "rank": 5
           },
@@ -713,7 +689,7 @@
               "max": 28
             },
             "offense": 71,
-            "criticalChance": 13,
+            "criticalChance": 33,
             "hits": 2,
             "rank": 6
           }
@@ -1392,11 +1368,11 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 1224
+                "amount": 612
               }
             ],
-            "time": 14400,
-            "sp": 400
+            "time": 3600,
+            "sp": 300
           },
           "rank": 2
         },
@@ -1414,14 +1390,14 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 3960
+                "amount": 1980
               },
               {
                 "type": "Iron",
-                "amount": 975
+                "amount": 488
               }
             ],
-            "time": 43200,
+            "time": 10800,
             "sp": 600
           },
           "rank": 3
@@ -1440,19 +1416,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 12712
+                "amount": 6356
               },
               {
                 "type": "Iron",
-                "amount": 1850
-              },
-              {
-                "type": "Bars",
-                "amount": 2
+                "amount": 925
               }
             ],
-            "time": 86400,
-            "sp": 1200
+            "time": 21600,
+            "sp": 1438
           },
           "rank": 4
         },
@@ -1470,18 +1442,14 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 33680
+                "amount": 16840
               },
               {
                 "type": "Iron",
-                "amount": 3075
-              },
-              {
-                "type": "Bars",
-                "amount": 7
+                "amount": 1538
               }
             ],
-            "time": 172800,
+            "time": 43200,
             "sp": 2875
           },
           "rank": 5
@@ -1500,19 +1468,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 133952
+                "amount": 66976
               },
               {
                 "type": "Steel",
-                "amount": 3125
-              },
-              {
-                "type": "Laurels",
-                "amount": 3
+                "amount": 1563
               }
             ],
-            "time": 172800,
-            "sp": 5750
+            "time": 43200,
+            "sp": 17288
           },
           "rank": 6
         }
@@ -1819,15 +1783,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 1632
+                "amount": 816
               },
               {
                 "type": "Iron",
-                "amount": 1275
+                "amount": 638
               }
             ],
-            "time": 14400,
-            "sp": 960
+            "time": 3600,
+            "sp": 480
           },
           "rank": 2
         },
@@ -1845,15 +1809,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 5280
+                "amount": 2640
               },
               {
                 "type": "Iron",
-                "amount": 2225
+                "amount": 1113
               }
             ],
-            "time": 43200,
-            "sp": 2240
+            "time": 10800,
+            "sp": 1120
           },
           "rank": 3
         },
@@ -1871,19 +1835,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 15064
+                "amount": 7532
               },
               {
                 "type": "Iron",
-                "amount": 3525
-              },
-              {
-                "type": "Bars",
-                "amount": 3
+                "amount": 1763
               }
             ],
-            "time": 86400,
-            "sp": 5125
+            "time": 21600,
+            "sp": 2563
           },
           "rank": 4
         },
@@ -1901,19 +1861,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 44904
+                "amount": 22452
               },
               {
                 "type": "Steel",
-                "amount": 2450
-              },
-              {
-                "type": "Bars",
-                "amount": 9
+                "amount": 1225
               }
             ],
-            "time": 172800,
-            "sp": 12800
+            "time": 43200,
+            "sp": 6400
           },
           "rank": 5
         },
@@ -1931,19 +1887,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 178600
+                "amount": 89300
               },
               {
                 "type": "Steel",
-                "amount": 4950
-              },
-              {
-                "type": "Laurels",
-                "amount": 3
+                "amount": 2475
               }
             ],
-            "time": 172800,
-            "sp": 25725
+            "time": 43200,
+            "sp": 12863
           },
           "rank": 6
         }
@@ -1996,8 +1948,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 12,
-              "max": 18
+              "min": 15,
+              "max": 22
             },
             "offense": 46,
             "criticalChance": 5,
@@ -2009,8 +1961,8 @@
           },
           {
             "damage": {
-              "min": 13,
-              "max": 19
+              "min": 16,
+              "max": 24
             },
             "offense": 51,
             "criticalChance": 5,
@@ -2022,8 +1974,8 @@
           },
           {
             "damage": {
-              "min": 14,
-              "max": 21
+              "min": 18,
+              "max": 26
             },
             "offense": 56,
             "criticalChance": 5,
@@ -2035,8 +1987,8 @@
           },
           {
             "damage": {
-              "min": 15,
-              "max": 23
+              "min": 19,
+              "max": 28
             },
             "offense": 61,
             "criticalChance": 5,
@@ -2048,8 +2000,8 @@
           },
           {
             "damage": {
-              "min": 16,
-              "max": 25
+              "min": 21,
+              "max": 30
             },
             "offense": 66,
             "criticalChance": 5,
@@ -2061,8 +2013,8 @@
           },
           {
             "damage": {
-              "min": 18,
-              "max": 27
+              "min": 22,
+              "max": 33
             },
             "offense": 71,
             "criticalChance": 5,
@@ -2225,7 +2177,7 @@
           "dodge": 10,
           "bravery": 20,
           "abilitySlots": 1,
-          "range": 2,
+          "range": 4,
           "pvpValue": 4,
           "spReward": 16,
           "goldReward": 80,
@@ -2237,7 +2189,7 @@
           "dodge": 15,
           "bravery": 25,
           "abilitySlots": 1,
-          "range": 2,
+          "range": 4,
           "pvpValue": 6,
           "spReward": 24,
           "goldReward": 120,
@@ -2245,11 +2197,11 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 1552
+                "amount": 776
               }
             ],
-            "time": 14400,
-            "sp": 610
+            "time": 3600,
+            "sp": 305
           },
           "rank": 2
         },
@@ -2259,7 +2211,7 @@
           "dodge": 20,
           "bravery": 25,
           "abilitySlots": 2,
-          "range": 2,
+          "range": 4,
           "pvpValue": 7,
           "spReward": 28,
           "goldReward": 140,
@@ -2267,15 +2219,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 5080
+                "amount": 2540
               },
               {
                 "type": "Iron",
-                "amount": 1325
+                "amount": 663
               }
             ],
-            "time": 43200,
-            "sp": 1220
+            "time": 10800,
+            "sp": 610
           },
           "rank": 3
         },
@@ -2285,7 +2237,7 @@
           "dodge": 25,
           "bravery": 30,
           "abilitySlots": 2,
-          "range": 2,
+          "range": 4,
           "pvpValue": 8,
           "spReward": 32,
           "goldReward": 160,
@@ -2293,19 +2245,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 16696
+                "amount": 8348
               },
               {
                 "type": "Iron",
-                "amount": 2375
-              },
-              {
-                "type": "Bars",
-                "amount": 2
+                "amount": 1188
               }
             ],
-            "time": 86400,
-            "sp": 3050
+            "time": 21600,
+            "sp": 1525
           },
           "rank": 4
         },
@@ -2315,7 +2263,7 @@
           "dodge": 30,
           "bravery": 30,
           "abilitySlots": 3,
-          "range": 2,
+          "range": 4,
           "pvpValue": 10,
           "spReward": 40,
           "goldReward": 200,
@@ -2323,19 +2271,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 44296
+                "amount": 22148
               },
               {
                 "type": "Iron",
-                "amount": 3825
-              },
-              {
-                "type": "Bars",
-                "amount": 7
+                "amount": 1913
               }
             ],
-            "time": 172800,
-            "sp": 6075
+            "time": 43200,
+            "sp": 3038
           },
           "rank": 5
         },
@@ -2345,7 +2289,7 @@
           "dodge": 35,
           "bravery": 35,
           "abilitySlots": 3,
-          "range": 2,
+          "range": 4,
           "pvpValue": 11,
           "spReward": 44,
           "goldReward": 220,
@@ -2353,19 +2297,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 155536
+                "amount": 77768
               },
               {
                 "type": "Steel",
-                "amount": 3325
-              },
-              {
-                "type": "Laurels",
-                "amount": 3
+                "amount": 1663
               }
             ],
-            "time": 172800,
-            "sp": 40125
+            "time": 43200,
+            "sp": 20063
           },
           "rank": 6
         }
@@ -2383,7 +2323,7 @@
         "cooldown": 1,
         "range": {
           "min": 1,
-          "max": 2
+          "max": 4
         },
         "suppressionMod": {
           "multiplier": 0
@@ -2424,8 +2364,8 @@
           },
           {
             "damage": {
-              "min": 25,
-              "max": 30
+              "min": 27,
+              "max": 33
             },
             "offense": 69,
             "criticalChance": 5,
@@ -2435,8 +2375,8 @@
           },
           {
             "damage": {
-              "min": 27,
-              "max": 33
+              "min": 32,
+              "max": 39
             },
             "offense": 74,
             "criticalChance": 5,
@@ -2446,8 +2386,8 @@
           },
           {
             "damage": {
-              "min": 29,
-              "max": 36
+              "min": 36,
+              "max": 44
             },
             "offense": 79,
             "criticalChance": 5,
@@ -2457,8 +2397,8 @@
           },
           {
             "damage": {
-              "min": 32,
-              "max": 39
+              "min": 41,
+              "max": 50
             },
             "offense": 84,
             "criticalChance": 5,
@@ -2468,8 +2408,8 @@
           },
           {
             "damage": {
-              "min": 34,
-              "max": 42
+              "min": 46,
+              "max": 56
             },
             "offense": 89,
             "criticalChance": 5,
@@ -2492,7 +2432,7 @@
         "weaponCooldown": 1,
         "range": {
           "min": 1,
-          "max": 2
+          "max": 4
         },
         "suppressionMod": {
           "multiplier": 0
@@ -2526,8 +2466,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 27,
-              "max": 33
+              "min": 32,
+              "max": 39
             },
             "offense": 48,
             "criticalChance": 5,
@@ -2536,8 +2476,8 @@
           },
           {
             "damage": {
-              "min": 29,
-              "max": 36
+              "min": 36,
+              "max": 44
             },
             "offense": 53,
             "criticalChance": 5,
@@ -2546,8 +2486,8 @@
           },
           {
             "damage": {
-              "min": 32,
-              "max": 39
+              "min": 41,
+              "max": 50
             },
             "offense": 58,
             "criticalChance": 5,
@@ -2556,8 +2496,8 @@
           },
           {
             "damage": {
-              "min": 34,
-              "max": 42
+              "min": 46,
+              "max": 56
             },
             "offense": 63,
             "criticalChance": 5,
@@ -2579,7 +2519,7 @@
         "weaponCooldown": 1,
         "range": {
           "min": 1,
-          "max": 2
+          "max": 4
         },
         "suppressionMod": {
           "multiplier": 0
@@ -2618,8 +2558,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 23,
-              "max": 28
+              "min": 28,
+              "max": 35
             },
             "offense": 79,
             "criticalChance": 5,
@@ -2633,8 +2573,8 @@
           },
           {
             "damage": {
-              "min": 25,
-              "max": 30
+              "min": 32,
+              "max": 39
             },
             "offense": 84,
             "criticalChance": 5,
@@ -2648,8 +2588,8 @@
           },
           {
             "damage": {
-              "min": 27,
-              "max": 33
+              "min": 36,
+              "max": 44
             },
             "offense": 89,
             "criticalChance": 5,
@@ -2676,7 +2616,7 @@
         "weaponCooldown": 1,
         "range": {
           "min": 1,
-          "max": 2
+          "max": 4
         },
         "suppressionMod": {
           "multiplier": 0
@@ -2715,8 +2655,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 15,
-              "max": 19
+              "min": 19,
+              "max": 25
             },
             "offense": 84,
             "criticalChance": 0,
@@ -2730,8 +2670,8 @@
           },
           {
             "damage": {
-              "min": 16,
-              "max": 21
+              "min": 22,
+              "max": 28
             },
             "offense": 89,
             "criticalChance": 0,
@@ -2799,7 +2739,7 @@
           "rank": 1
         },
         {
-          "health": 75,
+          "health": 80,
           "defense": 25,
           "dodge": 0,
           "bravery": 25,
@@ -2812,16 +2752,16 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 2192
+                "amount": 1096
               }
             ],
-            "time": 14400,
-            "sp": 735
+            "time": 3600,
+            "sp": 368
           },
           "rank": 2
         },
         {
-          "health": 85,
+          "health": 90,
           "defense": 25,
           "dodge": 0,
           "bravery": 25,
@@ -2834,20 +2774,20 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 7096
+                "amount": 3548
               },
               {
                 "type": "Iron",
-                "amount": 1700
+                "amount": 850
               }
             ],
-            "time": 43200,
-            "sp": 1470
+            "time": 10800,
+            "sp": 735
           },
           "rank": 3
         },
         {
-          "health": 90,
+          "health": 100,
           "defense": 25,
           "dodge": 0,
           "bravery": 30,
@@ -2860,24 +2800,20 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 23096
+                "amount": 11548
               },
               {
                 "type": "Iron",
-                "amount": 2950
-              },
-              {
-                "type": "Bars",
-                "amount": 2
+                "amount": 1475
               }
             ],
-            "time": 86400,
-            "sp": 3675
+            "time": 21600,
+            "sp": 1838
           },
           "rank": 4
         },
         {
-          "health": 100,
+          "health": 110,
           "defense": 25,
           "dodge": 0,
           "bravery": 30,
@@ -2890,24 +2826,20 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 60776
+                "amount": 30388
               },
               {
                 "type": "Iron",
-                "amount": 4675
-              },
-              {
-                "type": "Bars",
-                "amount": 7
+                "amount": 2338
               }
             ],
-            "time": 172800,
-            "sp": 6615
+            "time": 43200,
+            "sp": 3308
           },
           "rank": 5
         },
         {
-          "health": 105,
+          "health": 120,
           "defense": 25,
           "dodge": 0,
           "bravery": 35,
@@ -2920,19 +2852,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 171160
+                "amount": 85580
               },
               {
                 "type": "Steel",
-                "amount": 3550
-              },
-              {
-                "type": "Laurels",
-                "amount": 3
+                "amount": 1775
               }
             ],
-            "time": 172800,
-            "sp": 44175
+            "time": 43200,
+            "sp": 22088
           },
           "rank": 6
         }
@@ -2943,7 +2871,7 @@
         "name": "Machine Gun",
         "description": "Spray fire attack hitting multiple targets",
         "damageType": "Piercing",
-        "lineOfFire": "Direct (Fixed)",
+        "lineOfFire": "Precise (Fixed)",
         "ammo": 4,
         "ammoUsed": 1,
         "reloadTime": 5,
@@ -3070,7 +2998,7 @@
         "name": "Heavy Fire",
         "description": "Concentrated fire with 6 hits",
         "damageType": "Piercing",
-        "lineOfFire": "Direct (Fixed)",
+        "lineOfFire": "Precise (Fixed)",
         "unlockRank": 3,
         "ammo": 4,
         "ammoUsed": 2,
@@ -4751,15 +4679,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 432
+                "amount": 216
               },
               {
                 "type": "Iron",
-                "amount": 475
+                "amount": 238
               }
             ],
-            "time": 14400,
-            "sp": 600
+            "time": 3600,
+            "sp": 210
           },
           "rank": 2
         },
@@ -4784,15 +4712,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 16688
+                "amount": 8344
               },
               {
                 "type": "Iron",
-                "amount": 3650
+                "amount": 1825
               }
             ],
-            "time": 43200,
-            "sp": 1200
+            "time": 10800,
+            "sp": 1498
           },
           "rank": 3
         },
@@ -4817,19 +4745,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 79040
+                "amount": 39520
               },
               {
                 "type": "Iron",
-                "amount": 10075
-              },
-              {
-                "type": "Bars",
-                "amount": 3
+                "amount": 5038
               }
             ],
-            "time": 86400,
-            "sp": 2000
+            "time": 21600,
+            "sp": 3505
           },
           "rank": 4
         },
@@ -4854,19 +4778,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 252912
+                "amount": 126456
               },
               {
                 "type": "Steel",
-                "amount": 9650
-              },
-              {
-                "type": "Bars",
-                "amount": 8
+                "amount": 4825
               }
             ],
-            "time": 172800,
-            "sp": 3000
+            "time": 43200,
+            "sp": 7100
           },
           "rank": 5
         },
@@ -4891,19 +4811,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 567600
+                "amount": 283800
               },
               {
                 "type": "Steel",
-                "amount": 17125
-              },
-              {
-                "type": "Laurels",
-                "amount": 2
+                "amount": 8563
               }
             ],
-            "time": 172800,
-            "sp": 4200
+            "time": 43200,
+            "sp": 11353
           },
           "rank": 6
         }
@@ -5186,15 +5102,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 2288
+                "amount": 1144
               },
               {
                 "type": "Iron",
-                "amount": 800
+                "amount": 400
               }
             ],
-            "time": 14400,
-            "sp": 750
+            "time": 3600,
+            "sp": 448
           },
           "rank": 2
         },
@@ -5212,15 +5128,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 8448
+                "amount": 4224
               },
               {
                 "type": "Iron",
-                "amount": 1550
+                "amount": 775
               }
             ],
-            "time": 43200,
-            "sp": 1500
+            "time": 10800,
+            "sp": 942
           },
           "rank": 3
         },
@@ -5238,19 +5154,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 26360
+                "amount": 13180
               },
               {
                 "type": "Iron",
-                "amount": 2625
-              },
-              {
-                "type": "Bars",
-                "amount": 3
+                "amount": 1313
               }
             ],
-            "time": 86400,
-            "sp": 3000
+            "time": 21600,
+            "sp": 2196
           },
           "rank": 4
         },
@@ -5268,19 +5180,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 69152
+                "amount": 34576
               },
               {
                 "type": "Steel",
-                "amount": 1900
-              },
-              {
-                "type": "Bars",
-                "amount": 8
+                "amount": 950
               }
             ],
-            "time": 172800,
-            "sp": 6000
+            "time": 43200,
+            "sp": 4392
           },
           "rank": 5
         },
@@ -5298,19 +5206,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 243792
+                "amount": 121896
               },
               {
                 "type": "Steel",
-                "amount": 3575
-              },
-              {
-                "type": "Laurels",
-                "amount": 3
+                "amount": 1788
               }
             ],
-            "time": 172800,
-            "sp": 12000
+            "time": 43200,
+            "sp": 27960
           },
           "rank": 6
         }
@@ -5319,7 +5223,7 @@
     "actions": [
       {
         "name": "Big Swing",
-        "description": "Sweeping melee attack with electro-lance",
+        "description": "Sweeping melee attack with electro-lance, 25% stun chance for 1 turn",
         "damageType": "Crushing",
         "lineOfFire": "Contact (Fixed)",
         "ammo": -1,
@@ -5365,8 +5269,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 29,
-              "max": 35
+              "min": 44,
+              "max": 53
             },
             "offense": 50,
             "criticalChance": 5,
@@ -5374,8 +5278,8 @@
           },
           {
             "damage": {
-              "min": 31,
-              "max": 38
+              "min": 48,
+              "max": 58
             },
             "offense": 55,
             "criticalChance": 5,
@@ -5383,8 +5287,8 @@
           },
           {
             "damage": {
-              "min": 34,
-              "max": 42
+              "min": 52,
+              "max": 63
             },
             "offense": 60,
             "criticalChance": 5,
@@ -5392,8 +5296,8 @@
           },
           {
             "damage": {
-              "min": 37,
-              "max": 45
+              "min": 57,
+              "max": 68
             },
             "offense": 65,
             "criticalChance": 5,
@@ -5401,8 +5305,8 @@
           },
           {
             "damage": {
-              "min": 40,
-              "max": 49
+              "min": 61,
+              "max": 74
             },
             "offense": 70,
             "criticalChance": 5,
@@ -5410,18 +5314,23 @@
           },
           {
             "damage": {
-              "min": 43,
-              "max": 52
+              "min": 66,
+              "max": 79
             },
             "offense": 75,
             "criticalChance": 5,
             "rank": 6
           }
-        ]
+        ],
+        "statusEffect": {
+          "type": "Stun",
+          "chance": 25,
+          "duration": 1
+        }
       },
       {
         "name": "Stun Sweep",
-        "description": "Stunning attack with 60% stun chance for 3 turns",
+        "description": "Stunning attack with 70% stun chance for 3 turns",
         "damageType": "Crushing",
         "lineOfFire": "Contact (Fixed)",
         "unlockRank": 2,
@@ -5435,7 +5344,7 @@
         },
         "statusEffect": {
           "type": "Stun",
-          "chance": 60,
+          "chance": 70,
           "duration": 3
         },
         "suppressionMod": {
@@ -5480,8 +5389,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 15,
-              "max": 18
+              "min": 24,
+              "max": 28
             },
             "offense": 55,
             "criticalChance": 5,
@@ -5489,8 +5398,8 @@
           },
           {
             "damage": {
-              "min": 16,
-              "max": 20
+              "min": 26,
+              "max": 31
             },
             "offense": 60,
             "criticalChance": 5,
@@ -5498,8 +5407,8 @@
           },
           {
             "damage": {
-              "min": 18,
-              "max": 22
+              "min": 28,
+              "max": 33
             },
             "offense": 65,
             "criticalChance": 5,
@@ -5507,8 +5416,8 @@
           },
           {
             "damage": {
-              "min": 19,
-              "max": 23
+              "min": 30,
+              "max": 36
             },
             "offense": 70,
             "criticalChance": 5,
@@ -5516,8 +5425,8 @@
           },
           {
             "damage": {
-              "min": 21,
-              "max": 25
+              "min": 33,
+              "max": 39
             },
             "offense": 75,
             "criticalChance": 5,
@@ -5954,7 +5863,7 @@
       "ranks": [
         {
           "health": 60,
-          "armor": 60,
+          "armor": 70,
           "defense": 30,
           "dodge": 0,
           "bravery": 30,
@@ -5967,7 +5876,7 @@
         },
         {
           "health": 65,
-          "armor": 65,
+          "armor": 85,
           "defense": 30,
           "dodge": 0,
           "bravery": 30,
@@ -5980,21 +5889,21 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 3930
+                "amount": 1965
               },
               {
                 "type": "Iron",
-                "amount": 1800
+                "amount": 900
               }
             ],
-            "time": 14400,
-            "sp": 925
+            "time": 3600,
+            "sp": 463
           },
           "rank": 2
         },
         {
           "health": 70,
-          "armor": 70,
+          "armor": 105,
           "defense": 30,
           "dodge": 0,
           "bravery": 35,
@@ -6007,21 +5916,21 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 11310
+                "amount": 5655
               },
               {
                 "type": "Iron",
-                "amount": 3075
+                "amount": 1538
               }
             ],
-            "time": 43200,
-            "sp": 2110
+            "time": 10800,
+            "sp": 1055
           },
           "rank": 3
         },
         {
           "health": 80,
-          "armor": 80,
+          "armor": 120,
           "defense": 30,
           "dodge": 0,
           "bravery": 40,
@@ -6034,25 +5943,21 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 32360
+                "amount": 16180
               },
               {
                 "type": "Iron",
-                "amount": 4725
-              },
-              {
-                "type": "Bars",
-                "amount": 3
+                "amount": 2363
               }
             ],
-            "time": 86400,
-            "sp": 5275
+            "time": 21600,
+            "sp": 2638
           },
           "rank": 4
         },
         {
           "health": 85,
-          "armor": 85,
+          "armor": 140,
           "defense": 35,
           "dodge": 5,
           "bravery": 45,
@@ -6065,25 +5970,21 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 85490
+                "amount": 42745
               },
               {
                 "type": "Steel",
-                "amount": 3125
-              },
-              {
-                "type": "Bars",
-                "amount": 8
+                "amount": 1563
               }
             ],
-            "time": 172800,
-            "sp": 12675
+            "time": 43200,
+            "sp": 6338
           },
           "rank": 5
         },
         {
           "health": 90,
-          "armor": 90,
+          "armor": 155,
           "defense": 35,
           "dodge": 5,
           "bravery": 45,
@@ -6096,19 +5997,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 319250
+                "amount": 159625
               },
               {
                 "type": "Steel",
-                "amount": 4200
-              },
-              {
-                "type": "Laurels",
-                "amount": 3
+                "amount": 2100
               }
             ],
-            "time": 172800,
-            "sp": 43925
+            "time": 43200,
+            "sp": 21963
           },
           "rank": 6
         }
@@ -6147,8 +6044,8 @@
         "ranks": [
           {
             "damage": {
-              "min": 5,
-              "max": 6
+              "min": 8,
+              "max": 9
             },
             "offense": 54,
             "criticalChance": 5,
@@ -6158,8 +6055,8 @@
           },
           {
             "damage": {
-              "min": 5,
-              "max": 6
+              "min": 8,
+              "max": 9
             },
             "offense": 59,
             "criticalChance": 5,
@@ -6169,8 +6066,8 @@
           },
           {
             "damage": {
-              "min": 6,
-              "max": 7
+              "min": 9,
+              "max": 10
             },
             "offense": 64,
             "criticalChance": 5,
@@ -6180,8 +6077,8 @@
           },
           {
             "damage": {
-              "min": 6,
-              "max": 7
+              "min": 10,
+              "max": 11
             },
             "offense": 69,
             "criticalChance": 5,
@@ -6191,8 +6088,8 @@
           },
           {
             "damage": {
-              "min": 7,
-              "max": 8
+              "min": 11,
+              "max": 12
             },
             "offense": 74,
             "criticalChance": 5,
@@ -6202,8 +6099,8 @@
           },
           {
             "damage": {
-              "min": 7,
-              "max": 9
+              "min": 12,
+              "max": 13
             },
             "offense": 79,
             "criticalChance": 5,
@@ -7632,15 +7529,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 6256
+                "amount": 3128
               },
               {
                 "type": "Iron",
-                "amount": 4025
+                "amount": 2013
               }
             ],
-            "time": 14400,
-            "sp": 1840
+            "time": 3600,
+            "sp": 920
           },
           "rank": 2
         },
@@ -7658,15 +7555,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 18920
+                "amount": 9460
               },
               {
                 "type": "Iron",
-                "amount": 5875
+                "amount": 2938
               }
             ],
-            "time": 43200,
-            "sp": 4420
+            "time": 10800,
+            "sp": 2210
           },
           "rank": 3
         },
@@ -7684,19 +7581,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 50528
+                "amount": 25264
               },
               {
                 "type": "Steel",
-                "amount": 3750
-              },
-              {
-                "type": "Bars",
-                "amount": 3
+                "amount": 1875
               }
             ],
-            "time": 86400,
-            "sp": 10300
+            "time": 21600,
+            "sp": 5150
           },
           "rank": 4
         },
@@ -7714,19 +7607,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 127112
+                "amount": 63556
               },
               {
                 "type": "Steel",
-                "amount": 4950
-              },
-              {
-                "type": "Bars",
-                "amount": 10
+                "amount": 2475
               }
             ],
-            "time": 172800,
-            "sp": 23550
+            "time": 43200,
+            "sp": 11775
           },
           "rank": 5
         },
@@ -7744,19 +7633,15 @@
             "resources": [
               {
                 "type": "Gold",
-                "amount": 492944
+                "amount": 246472
               },
               {
                 "type": "Steel",
-                "amount": 6300
-              },
-              {
-                "type": "Laurels",
-                "amount": 4
+                "amount": 3150
               }
             ],
-            "time": 172800,
-            "sp": 84775
+            "time": 43200,
+            "sp": 42388
           },
           "rank": 6
         }
@@ -7765,7 +7650,7 @@
     "actions": [
       {
         "name": "Spray Flame",
-        "description": "Flamethrower attack with 25% AP, 60% fire chance for 2 turns",
+        "description": "Flamethrower attack with 25% AP, 100% fire chance for 2 turns",
         "damageType": "Fire",
         "lineOfFire": "Direct (Fixed)",
         "ammo": 4,
@@ -7782,7 +7667,7 @@
         },
         "statusEffect": {
           "type": "Fire",
-          "chance": 60,
+          "chance": 100,
           "duration": 2
         },
         "targetableTypes": {
@@ -15113,7 +14998,7 @@
     "stats": {
       "ranks": [
         {
-          "health": 150,
+          "health": 165,
           "defense": 40,
           "dodge": 10,
           "bravery": 20,
@@ -15125,7 +15010,7 @@
           "rank": 1
         },
         {
-          "health": 165,
+          "health": 180,
           "defense": 40,
           "dodge": 10,
           "bravery": 20,
@@ -15151,7 +15036,7 @@
           "rank": 2
         },
         {
-          "health": 180,
+          "health": 195,
           "defense": 42,
           "dodge": 12,
           "bravery": 22,
@@ -15177,7 +15062,7 @@
           "rank": 3
         },
         {
-          "health": 195,
+          "health": 210,
           "defense": 47,
           "dodge": 17,
           "bravery": 27,
@@ -15207,7 +15092,7 @@
           "rank": 4
         },
         {
-          "health": 210,
+          "health": 225,
           "defense": 55,
           "dodge": 25,
           "bravery": 35,
@@ -15237,7 +15122,7 @@
           "rank": 5
         },
         {
-          "health": 225,
+          "health": 240,
           "defense": 65,
           "dodge": 35,
           "bravery": 45,
@@ -17974,7 +17859,7 @@
     "actions": [
       {
         "name": "Spray Flame",
-        "description": "Wide flame attack hitting 3 units, 25% armor piercing, 60% fire DoT for 2 turns",
+        "description": "Wide flame attack hitting 3 units, 25% armor piercing, 100% fire DoT for 2 turns",
         "damageType": "Fire",
         "lineOfFire": "Direct (Fixed)",
         "ammo": 3,
@@ -18079,7 +17964,7 @@
         ],
         "statusEffect": {
           "type": "Fire",
-          "chance": 60,
+          "chance": 100,
           "duration": 2
         }
       },
@@ -24868,8 +24753,8 @@
     "stats": {
       "ranks": [
         {
-          "health": 85,
-          "armor": 60,
+          "health": 95,
+          "armor": 70,
           "defense": 35,
           "dodge": 15,
           "bravery": 25,
@@ -24881,8 +24766,8 @@
           "rank": 1
         },
         {
-          "health": 95,
-          "armor": 65,
+          "health": 110,
+          "armor": 80,
           "defense": 40,
           "dodge": 20,
           "bravery": 30,
@@ -24908,8 +24793,8 @@
           "rank": 2
         },
         {
-          "health": 100,
-          "armor": 70,
+          "health": 125,
+          "armor": 90,
           "defense": 45,
           "dodge": 25,
           "bravery": 35,
@@ -24935,8 +24820,8 @@
           "rank": 3
         },
         {
-          "health": 110,
-          "armor": 80,
+          "health": 140,
+          "armor": 100,
           "defense": 50,
           "dodge": 30,
           "bravery": 40,
@@ -24966,8 +24851,8 @@
           "rank": 4
         },
         {
-          "health": 120,
-          "armor": 85,
+          "health": 155,
+          "armor": 110,
           "defense": 55,
           "dodge": 35,
           "bravery": 45,
@@ -24997,8 +24882,8 @@
           "rank": 5
         },
         {
-          "health": 130,
-          "armor": 90,
+          "health": 170,
+          "armor": 120,
           "defense": 60,
           "dodge": 40,
           "bravery": 45,
@@ -26275,7 +26160,7 @@
     "stats": {
       "ranks": [
         {
-          "health": 115,
+          "health": 135,
           "defense": 40,
           "dodge": 25,
           "bravery": 15,
@@ -26287,7 +26172,7 @@
           "rank": 1
         },
         {
-          "health": 125,
+          "health": 145,
           "defense": 45,
           "dodge": 30,
           "bravery": 15,
@@ -26313,7 +26198,7 @@
           "rank": 2
         },
         {
-          "health": 140,
+          "health": 155,
           "defense": 50,
           "dodge": 35,
           "bravery": 20,
@@ -26339,7 +26224,7 @@
           "rank": 3
         },
         {
-          "health": 150,
+          "health": 165,
           "defense": 55,
           "dodge": 40,
           "bravery": 20,
@@ -26369,7 +26254,7 @@
           "rank": 4
         },
         {
-          "health": 160,
+          "health": 175,
           "defense": 60,
           "dodge": 45,
           "bravery": 25,
@@ -26399,7 +26284,7 @@
           "rank": 5
         },
         {
-          "health": 175,
+          "health": 185,
           "defense": 65,
           "dodge": 50,
           "bravery": 25,
@@ -29406,7 +29291,7 @@
       "ranks": [
         {
           "health": 125,
-          "armor": 90,
+          "armor": 100,
           "bravery": 30,
           "defense": 30,
           "dodge": 15,
@@ -29419,7 +29304,7 @@
         },
         {
           "health": 140,
-          "armor": 100,
+          "armor": 110,
           "bravery": 35,
           "defense": 35,
           "dodge": 20,
@@ -29445,8 +29330,8 @@
           "rank": 2
         },
         {
-          "health": 150,
-          "armor": 110,
+          "health": 155,
+          "armor": 120,
           "bravery": 40,
           "defense": 40,
           "dodge": 25,
@@ -29472,8 +29357,8 @@
           "rank": 3
         },
         {
-          "health": 165,
-          "armor": 115,
+          "health": 170,
+          "armor": 130,
           "bravery": 45,
           "defense": 45,
           "dodge": 30,
@@ -29503,8 +29388,8 @@
           "rank": 4
         },
         {
-          "health": 175,
-          "armor": 125,
+          "health": 185,
+          "armor": 140,
           "bravery": 50,
           "defense": 50,
           "dodge": 35,
@@ -29534,8 +29419,8 @@
           "rank": 5
         },
         {
-          "health": 190,
-          "armor": 135,
+          "health": 200,
+          "armor": 150,
           "bravery": 50,
           "defense": 55,
           "dodge": 40,
@@ -33063,7 +32948,7 @@
         "statusEffects": [
           {
             "type": "Fire",
-            "chance": 60,
+            "chance": 100,
             "duration": 2
           }
         ],
@@ -33136,7 +33021,7 @@
         ],
         "statusEffect": {
           "type": "Fire",
-          "chance": 60,
+          "chance": 100,
           "duration": 2
         }
       }
@@ -43143,7 +43028,7 @@
           "pvpValue": 10
         },
         {
-          "health": 140,
+          "health": 150,
           "defense": 70,
           "dodge": 40,
           "bravery": 45,
@@ -43173,7 +43058,7 @@
           "goldReward": 0
         },
         {
-          "health": 150,
+          "health": 175,
           "defense": 75,
           "dodge": 45,
           "bravery": 50,
@@ -43203,7 +43088,7 @@
           "goldReward": 0
         },
         {
-          "health": 165,
+          "health": 200,
           "defense": 75,
           "dodge": 45,
           "bravery": 55,
@@ -43233,7 +43118,7 @@
           "goldReward": 0
         },
         {
-          "health": 175,
+          "health": 225,
           "defense": 80,
           "dodge": 50,
           "bravery": 60,
@@ -43263,7 +43148,7 @@
           "goldReward": 0
         },
         {
-          "health": 190,
+          "health": 250,
           "defense": 85,
           "dodge": 55,
           "bravery": 60,
@@ -43781,7 +43666,7 @@
           "goldReward": 0
         },
         {
-          "health": 210,
+          "health": 220,
           "defense": 70,
           "dodge": 40,
           "bravery": 45,
@@ -43811,7 +43696,7 @@
           "goldReward": 0
         },
         {
-          "health": 230,
+          "health": 240,
           "defense": 70,
           "dodge": 40,
           "bravery": 50,
@@ -43841,7 +43726,7 @@
           "goldReward": 0
         },
         {
-          "health": 245,
+          "health": 265,
           "defense": 75,
           "dodge": 45,
           "bravery": 55,
@@ -43871,7 +43756,7 @@
           "goldReward": 0
         },
         {
-          "health": 265,
+          "health": 285,
           "defense": 80,
           "dodge": 50,
           "bravery": 60,
@@ -120345,7 +120230,7 @@
     "affiliation": "Imperial",
     "building": "Vehicle Factory",
     "buildingLevel": 1,
-    "unlockLevel": 10,
+    "unlockLevel": 35,
     "productionTime": 30,
     "cost": [
       {
@@ -120359,7 +120244,7 @@
       "ranks": [
         {
           "rank": 1,
-          "health": 200,
+          "health": 150,
           "defense": 40,
           "dodge": 25,
           "bravery": 20,
@@ -120372,7 +120257,7 @@
         },
         {
           "rank": 2,
-          "health": 225,
+          "health": 175,
           "defense": 45,
           "dodge": 30,
           "bravery": 25,
@@ -120399,7 +120284,7 @@
         },
         {
           "rank": 3,
-          "health": 250,
+          "health": 200,
           "defense": 50,
           "dodge": 35,
           "bravery": 30,
@@ -120426,7 +120311,7 @@
         },
         {
           "rank": 4,
-          "health": 285,
+          "health": 225,
           "defense": 55,
           "dodge": 40,
           "bravery": 35,
@@ -120461,7 +120346,7 @@
         },
         {
           "rank": 5,
-          "health": 320,
+          "health": 250,
           "defense": 55,
           "dodge": 40,
           "bravery": 40,
@@ -120496,7 +120381,7 @@
         },
         {
           "rank": 6,
-          "health": 355,
+          "health": 275,
           "defense": 55,
           "dodge": 40,
           "bravery": 45,
@@ -120531,7 +120416,7 @@
         },
         {
           "rank": 7,
-          "health": 395,
+          "health": 300,
           "defense": 60,
           "dodge": 45,
           "bravery": 50,
@@ -120566,7 +120451,7 @@
         },
         {
           "rank": 8,
-          "health": 435,
+          "health": 325,
           "defense": 65,
           "dodge": 50,
           "bravery": 55,
@@ -120870,6 +120755,7 @@
       },
       {
         "name": "EMP Grenade",
+        "description": "Brings units to 10% health; cannot kill",
         "damageType": "Explosive",
         "lineOfFire": "Indirect",
         "range": {
@@ -121012,7 +120898,7 @@
         "suppressionMod": {
           "multiplier": 0
         },
-        "ammo": 2,
+        "ammo": 1,
         "reloadTime": 5,
         "ammoUsed": 1
       }
