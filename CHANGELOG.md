@@ -2,6 +2,37 @@
 
 All notable changes to this repo will be documented here.
 
+## 2026-10-10
+
+### Changed
+
+- Unit stats updated for the 4.19.0 patch (Oct 9): health for Field Agent,
+  Battle Raptor, Light Tank, Mini Tank, Mortar Truck, Imperial Boar and Nomad
+  Elemental Rover; armor for Light Tank, Mini Tank and Riot Trooper. Nomad's
+  EMP Grenade ammo goes from 2 to 1 and its description notes it leaves units
+  at 10% health instead of killing them. IDs: 14, 36, 53, 58, 65, 96, 98, 246.
+- Unit stats updated for the 4.17.7 patch (Aug 13):
+  - promotions for Trooper, Shock Trooper, Mortar Team, Arsonist, Hunter,
+    Gunner, Heavy Grenadier, Imperial Dragoon, Riot Trooper and Flame Trooper:
+    timers cut to a quarter, Bars and Laurels removed, other costs halved;
+  - Trooper Battle Rifle and Double Shot base damage 22-26 → 26-31;
+  - Shock Trooper Controlled Burst crit 13% → 33%;
+  - Arsonist Firestarter (the Molotov Cocktail) base damage 12-18 → 15-22;
+  - Hunter: all attacks range 1-4, damage now scales 20% per rank;
+  - Gunner HP 70/80/90/100/110/120, Machine Gun and Heavy Fire line of fire
+    Precise (Fixed);
+  - Imperial Dragoon Big Swing base damage 29-35 → 44-53 with a 25% stun for
+    1 turn, Stun Sweep base damage 14-17 → 22-26 and stun chance 60% → 70%;
+  - Riot Trooper Buckshot base damage 5-6 → 8-9;
+  - Spray Flame fire chance 60% → 100% on Flame Trooper, Salamander and
+    Firedrake.
+- Nomad Elemental Rover unlock level 10 → 35 (4.17.9 patch).
+
+### Fixed
+
+- Promotion SP for Mortar Team, Heavy Grenadier and Imperial Dragoon now
+  matches the wiki.
+
 ## 2026-10-01
 
 ### Added
