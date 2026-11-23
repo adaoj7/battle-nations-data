@@ -2,6 +2,30 @@
 
 All notable changes to this repo will be documented here.
 
+## 2026-11-23
+
+### Added
+
+- Units: Wolf Artillery (285), Warmonger (286), Painmonger (287),
+  Deathmonger (288), Codename: Killshot (289), Codename: Deadshot (290),
+  Codename: Hellshot (291) and Diamond Tank (292).
+- `ActionRank` crit bonus fields `critVsDefense`, `critVsCivilians`,
+  `critVsMetal`, `critVsGround` and `critVsExperimentalConstruct`, filled in
+  for Eagle Eye, Legendary Sandworm, Boom Bus, Demolisher, Snow Crusher,
+  Mechanized Artillery and Unmanned Scram Cannon Turret.
+
+### Changed
+
+- Every unit checked field by field against the Battle Nations Miraheze wiki
+  and corrected where it differed: costs, build and heal costs, promotion
+  costs, rank rewards, resistances, and attack damage, offense, crit, ammo,
+  reload, cooldown, range and status effects.
+- `critVs*` values are now the crit bonus offset added to the attack's
+  `criticalChance`, never a combined total.
+- Immunity `Cold` is now spelled `Cold Environment` on every unit.
+- Atmospheric Armor Trooper (254) `unitType` is `vehicle-soldier`; Spiderwasp
+  Egg (257) and Phalanx Tank (258) are `Boss Drop` units.
+
 ## 2026-10-10
 
 ### Changed
