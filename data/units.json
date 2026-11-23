@@ -10,7 +10,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 1,
-    "availableInGame": true,
     "productionTime": 468,
     "cost": [
       {
@@ -361,7 +360,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 2,
-    "availableInGame": true,
     "productionTime": 468,
     "cost": [
       {
@@ -723,7 +721,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 2,
-    "availableInGame": true,
     "productionTime": 780,
     "cost": [
       {
@@ -1334,7 +1331,6 @@
     "building": "Barracks",
     "buildingLevel": 2,
     "unlockLevel": 6,
-    "availableInGame": true,
     "productionTime": 1875,
     "cost": [
       {
@@ -1742,7 +1738,6 @@
     "building": "Barracks",
     "buildingLevel": 2,
     "unlockLevel": 6,
-    "availableInGame": true,
     "productionTime": 450,
     "cost": [
       {
@@ -2158,7 +2153,6 @@
     "building": "Barracks",
     "buildingLevel": 2,
     "unlockLevel": 7,
-    "availableInGame": true,
     "productionTime": 3000,
     "cost": [
       {
@@ -2723,7 +2717,6 @@
     "building": "Barracks",
     "buildingLevel": 2,
     "unlockLevel": 8,
-    "availableInGame": true,
     "productionTime": 3750,
     "cost": [
       {
@@ -3351,7 +3344,6 @@
     "building": "Barracks",
     "buildingLevel": 5,
     "unlockLevel": 24,
-    "availableInGame": true,
     "productionTime": 39600,
     "cost": [
       {
@@ -3809,7 +3801,6 @@
     "building": "Barracks",
     "buildingLevel": 7,
     "unlockLevel": 30,
-    "availableInGame": true,
     "productionTime": 32400,
     "cost": [
       {
@@ -4239,7 +4230,6 @@
     "building": "Barracks",
     "buildingLevel": 8,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 30780,
     "cost": [
       {
@@ -4649,7 +4639,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 18720,
     "cost": [
       {
@@ -5094,7 +5083,6 @@
     "building": "Barracks",
     "buildingLevel": 3,
     "unlockLevel": 5,
-    "availableInGame": true,
     "productionTime": 3960,
     "cost": [
       {
@@ -5490,7 +5478,6 @@
     "building": "Barracks",
     "buildingLevel": 3,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 1440,
     "cost": [
       {
@@ -5883,7 +5870,6 @@
     "building": "Barracks",
     "buildingLevel": 3,
     "unlockLevel": 11,
-    "availableInGame": true,
     "productionTime": 8640,
     "cost": [
       {
@@ -6276,7 +6262,6 @@
     "building": "Barracks",
     "buildingLevel": 4,
     "unlockLevel": 16,
-    "availableInGame": true,
     "productionTime": 16560,
     "cost": [
       {
@@ -6661,7 +6646,6 @@
     "building": "Barracks",
     "buildingLevel": 4,
     "unlockLevel": 17,
-    "availableInGame": true,
     "productionTime": 16560,
     "cost": [
       {
@@ -7157,7 +7141,6 @@
     "building": "Barracks",
     "buildingLevel": 5,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 47520,
     "cost": [
       {
@@ -7539,7 +7522,6 @@
     "building": "Barracks",
     "buildingLevel": 5,
     "unlockLevel": 19,
-    "availableInGame": true,
     "productionTime": 23760,
     "cost": [
       {
@@ -7857,7 +7839,6 @@
     "building": "Barracks",
     "buildingLevel": 5,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 35640,
     "cost": [
       {
@@ -8157,7 +8138,6 @@
     "building": "Barracks",
     "buildingLevel": 5,
     "unlockLevel": 23,
-    "availableInGame": true,
     "productionTime": 35640,
     "cost": [
       {
@@ -8681,7 +8661,6 @@
     "building": "Barracks",
     "buildingLevel": 6,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 30240,
     "cost": [
       {
@@ -9100,7 +9079,6 @@
     "building": "Barracks",
     "buildingLevel": 6,
     "unlockLevel": 28,
-    "availableInGame": true,
     "productionTime": 37800,
     "cost": [
       {
@@ -9547,7 +9525,6 @@
     "building": "Barracks",
     "buildingLevel": 7,
     "unlockLevel": 31,
-    "availableInGame": true,
     "productionTime": 32400,
     "cost": [
       {
@@ -9967,7 +9944,6 @@
     "building": "Barracks",
     "buildingLevel": 7,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -10302,7 +10278,6 @@
     "building": "Barracks",
     "buildingLevel": 8,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 10260,
     "cost": [
       {
@@ -11023,7 +10998,6 @@
     "building": "Barracks",
     "buildingLevel": 9,
     "unlockLevel": 41,
-    "availableInGame": true,
     "productionTime": 32400,
     "cost": [
       {
@@ -11365,7 +11339,6 @@
     "building": "Barracks",
     "buildingLevel": 10,
     "unlockLevel": 48,
-    "availableInGame": true,
     "productionTime": 34400,
     "cost": [
       {
@@ -11672,7 +11645,6 @@
     "building": "Barracks",
     "buildingLevel": 10,
     "unlockLevel": 46,
-    "availableInGame": true,
     "productionTime": 28800,
     "cost": [
       {
@@ -12031,7 +12003,6 @@
     "building": "Barracks",
     "buildingLevel": 6,
     "unlockLevel": 27,
-    "availableInGame": true,
     "productionTime": 34020,
     "cost": [
       {
@@ -12349,7 +12320,6 @@
     "building": "Barracks",
     "buildingLevel": 11,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 42000,
     "cost": [
       {
@@ -12852,7 +12822,6 @@
     "building": "Barracks",
     "buildingLevel": 11,
     "unlockLevel": 49,
-    "availableInGame": true,
     "productionTime": 37800,
     "cost": [
       {
@@ -13331,7 +13300,6 @@
     "building": "Barracks",
     "buildingLevel": 8,
     "unlockLevel": 55,
-    "availableInGame": true,
     "productionTime": 30780,
     "cost": [
       {
@@ -13659,7 +13627,6 @@
     "building": "Barracks",
     "buildingLevel": 10,
     "unlockLevel": 64,
-    "availableInGame": true,
     "productionTime": 48960,
     "cost": [
       {
@@ -13977,7 +13944,6 @@
     "building": "Barracks",
     "buildingLevel": 8,
     "unlockLevel": 56,
-    "availableInGame": true,
     "productionTime": 34200,
     "cost": [
       {
@@ -14706,7 +14672,6 @@
     "building": "Barracks",
     "buildingLevel": 3,
     "unlockLevel": 12,
-    "availableInGame": true,
     "productionTime": 360,
     "cost": [
       {
@@ -15165,7 +15130,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 23400,
     "cost": [
       {
@@ -16109,7 +16073,6 @@
     "building": "Barracks",
     "buildingLevel": 7,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 46800,
     "cost": [
       {
@@ -16769,7 +16732,6 @@
     "building": "Barracks",
     "buildingLevel": 8,
     "unlockLevel": 36,
-    "availableInGame": true,
     "productionTime": 30780,
     "cost": [
       {
@@ -17398,7 +17360,6 @@
     "building": "Barracks",
     "buildingLevel": 8,
     "unlockLevel": 37,
-    "availableInGame": true,
     "productionTime": 41040,
     "cost": [
       {
@@ -17932,7 +17893,6 @@
     "building": "Barracks",
     "buildingLevel": 9,
     "unlockLevel": 39,
-    "availableInGame": true,
     "productionTime": 45360,
     "cost": [
       {
@@ -18558,7 +18518,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 50,
-    "availableInGame": true,
     "productionTime": 14040,
     "cost": [
       {
@@ -19019,7 +18978,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 18720,
     "cost": [
       {
@@ -19745,7 +19703,6 @@
     "building": "Barracks",
     "buildingLevel": 9,
     "unlockLevel": 43,
-    "availableInGame": true,
     "productionTime": 32400,
     "cost": [
       {
@@ -20094,7 +20051,6 @@
     "building": "Barracks",
     "buildingLevel": 10,
     "unlockLevel": 46,
-    "availableInGame": true,
     "productionTime": 34560,
     "cost": [
       {
@@ -20591,7 +20547,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 18720,
     "cost": [
       {
@@ -21162,7 +21117,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 28080,
     "cost": [
       {
@@ -21971,7 +21925,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 13,
-    "availableInGame": true,
     "productionTime": 18720,
     "cost": [
       {
@@ -22570,7 +22523,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 13,
-    "availableInGame": true,
     "productionTime": 21060,
     "cost": [
       {
@@ -23210,7 +23162,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 14,
-    "availableInGame": true,
     "productionTime": 21060,
     "cost": [
       {
@@ -23896,7 +23847,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 21060,
     "cost": [
       {
@@ -24425,7 +24375,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 37440,
     "cost": [
       {
@@ -25035,7 +24984,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 11,
-    "availableInGame": true,
     "productionTime": 21060,
     "cost": [
       {
@@ -25507,7 +25455,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 2,
     "unlockLevel": 13,
-    "availableInGame": true,
     "productionTime": 40500,
     "cost": [
       {
@@ -25832,7 +25779,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 13,
-    "availableInGame": true,
     "productionTime": 312,
     "cost": [
       {
@@ -26025,7 +25971,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 3,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 38880,
     "cost": [
       {
@@ -26342,7 +26287,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 3,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 47520,
     "cost": [
       {
@@ -26650,7 +26594,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 3,
     "unlockLevel": 21,
-    "availableInGame": true,
     "productionTime": 64800,
     "cost": [
       {
@@ -26961,7 +26904,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 5,
     "unlockLevel": 22,
-    "availableInGame": true,
     "productionTime": 67320,
     "cost": [
       {
@@ -27397,7 +27339,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 4,
     "unlockLevel": 23,
-    "availableInGame": true,
     "productionTime": 41400,
     "cost": [
       {
@@ -28103,7 +28044,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 7,
     "unlockLevel": 33,
-    "availableInGame": true,
     "productionTime": 50400,
     "cost": [
       {
@@ -28412,7 +28352,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 7,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 43000,
     "cost": [
       {
@@ -28950,7 +28889,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 56160,
     "cost": [
       {
@@ -29179,7 +29117,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 8,
     "unlockLevel": 38,
-    "availableInGame": true,
     "productionTime": 30780,
     "cost": [
       {
@@ -29830,7 +29767,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 65,
-    "availableInGame": false,
     "productionTime": 56160,
     "cost": [
       {
@@ -30187,7 +30123,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 2,
     "unlockLevel": 29,
-    "availableInGame": true,
     "productionTime": 81000,
     "cost": [
       {
@@ -30573,7 +30508,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 6,
     "unlockLevel": 30,
-    "availableInGame": true,
     "productionTime": 52920,
     "cost": [
       {
@@ -30977,7 +30911,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 7,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 64800,
     "cost": [
       {
@@ -31391,7 +31324,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 7,
     "unlockLevel": 32,
-    "availableInGame": true,
     "productionTime": 50400,
     "cost": [
       {
@@ -31799,7 +31731,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 11,
     "unlockLevel": 50,
-    "availableInGame": true,
     "productionTime": 45360,
     "cost": [
       {
@@ -32333,7 +32264,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 10,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 51840,
     "cost": [
       {
@@ -32762,7 +32692,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 5,
     "unlockLevel": 27,
-    "availableInGame": true,
     "productionTime": 67320,
     "cost": [
       {
@@ -33087,7 +33016,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 9,
     "unlockLevel": 42,
-    "availableInGame": true,
     "productionTime": 58320,
     "cost": [
       {
@@ -33538,7 +33466,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 6,
     "unlockLevel": 26,
-    "availableInGame": true,
     "productionTime": 37800,
     "cost": [
       {
@@ -34017,7 +33944,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 7,
     "unlockLevel": 31,
-    "availableInGame": true,
     "productionTime": 64800,
     "cost": [
       {
@@ -34386,7 +34312,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 9,
     "unlockLevel": 41,
-    "availableInGame": true,
     "productionTime": 58320,
     "cost": [
       {
@@ -34752,7 +34677,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 11,
     "unlockLevel": 48,
-    "availableInGame": true,
     "productionTime": 45360,
     "cost": [
       {
@@ -35095,7 +35019,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 12,
     "unlockLevel": 49,
-    "availableInGame": true,
     "productionTime": 38880,
     "cost": [
       {
@@ -35478,7 +35401,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 11,
     "unlockLevel": 62,
-    "availableInGame": true,
     "productionTime": 45360,
     "cost": [
       {
@@ -35811,7 +35733,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 11,
     "unlockLevel": 55,
-    "availableInGame": true,
     "productionTime": 45360,
     "cost": [
       {
@@ -36235,7 +36156,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 11,
     "unlockLevel": 55,
-    "availableInGame": true,
     "productionTime": 30240,
     "cost": [
       {
@@ -36650,7 +36570,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 9,
     "unlockLevel": 44,
-    "availableInGame": true,
     "productionTime": 38700,
     "cost": [
       {
@@ -37159,7 +37078,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 10,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 51840,
     "cost": [
       {
@@ -37698,7 +37616,6 @@
     "building": "Optics Facility",
     "buildingLevel": 4,
     "unlockLevel": 53,
-    "availableInGame": true,
     "productionTime": 58320,
     "cost": [
       {
@@ -38137,7 +38054,6 @@
     "building": "Plasma Weapons Factory",
     "buildingLevel": 1,
     "unlockLevel": 68,
-    "availableInGame": false,
     "productionTime": 69120,
     "cost": [
       {
@@ -38769,7 +38685,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": 1,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 64800,
     "cost": [
       {
@@ -39185,7 +39100,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 3,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 51840,
     "cost": [
       {
@@ -39789,7 +39703,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 5,
     "unlockLevel": 28,
-    "availableInGame": true,
     "productionTime": 55440,
     "cost": [
       {
@@ -40395,7 +40308,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 4,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 74520,
     "cost": [
       {
@@ -40782,7 +40694,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 6,
     "unlockLevel": 30,
-    "availableInGame": true,
     "productionTime": 68040,
     "cost": [
       {
@@ -41337,7 +41248,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 8,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 61560,
     "cost": [
       {
@@ -41895,7 +41805,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 9,
     "unlockLevel": 40,
-    "availableInGame": true,
     "productionTime": 38700,
     "cost": [
       {
@@ -42495,7 +42404,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 6,
     "unlockLevel": 55,
-    "availableInGame": true,
     "productionTime": 49140,
     "cost": [
       {
@@ -42939,7 +42847,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 7,
     "unlockLevel": 56,
-    "availableInGame": true,
     "productionTime": 46800,
     "cost": [
       {
@@ -43743,7 +43650,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 38880,
     "cost": [
       {
@@ -44061,7 +43967,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -44379,7 +44284,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 12,
-    "availableInGame": true,
     "productionTime": 38880,
     "cost": [
       {
@@ -44685,7 +44589,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 2,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 43560,
     "cost": [
       {
@@ -44991,7 +44894,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 21,
-    "availableInGame": true,
     "productionTime": 38880,
     "cost": [
       {
@@ -45403,7 +45305,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 3,
     "unlockLevel": 29,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -45819,7 +45720,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 22,
-    "availableInGame": true,
     "productionTime": 38880,
     "cost": [
       {
@@ -46404,7 +46304,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 3,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 10800,
     "cost": [
       {
@@ -46989,7 +46888,6 @@
     "building": "Raider Training Camp",
     "buildingLevel": 1,
     "unlockLevel": 14,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -47290,7 +47188,6 @@
     "building": "Raider Training Camp",
     "buildingLevel": 1,
     "unlockLevel": 16,
-    "availableInGame": true,
     "productionTime": 46800,
     "cost": [
       {
@@ -47612,7 +47509,6 @@
     "building": "Raider Training Camp",
     "buildingLevel": 2,
     "unlockLevel": 21,
-    "availableInGame": true,
     "productionTime": 47520,
     "cost": [
       {
@@ -47970,7 +47866,6 @@
     "building": "Raider Training Camp",
     "buildingLevel": 1,
     "unlockLevel": 33,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -48463,7 +48358,6 @@
     "building": "Raider Training Camp",
     "buildingLevel": 3,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 36000,
     "cost": [
       {
@@ -48969,7 +48863,6 @@
     "building": "Raider Training Camp",
     "buildingLevel": 1,
     "unlockLevel": 40,
-    "availableInGame": true,
     "productionTime": 51600,
     "cost": [
       {
@@ -49275,7 +49168,6 @@
     "building": "Raider Training Camp",
     "buildingLevel": 1,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 60480,
     "cost": [
       {
@@ -49676,7 +49568,6 @@
     "building": "Dry Dock",
     "buildingLevel": 1,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 17280,
     "cost": [
       {
@@ -50389,7 +50280,6 @@
     "building": "Dry Dock",
     "buildingLevel": 1,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -51103,7 +50993,6 @@
     "building": "Dry Dock",
     "buildingLevel": 2,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 23760,
     "cost": [
       {
@@ -51722,7 +51611,6 @@
     "building": "Dry Dock",
     "buildingLevel": 1,
     "unlockLevel": 26,
-    "availableInGame": true,
     "productionTime": 34560,
     "cost": [
       {
@@ -51945,7 +51833,6 @@
     "building": "Dry Dock",
     "buildingLevel": 1,
     "unlockLevel": 31,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -52752,7 +52639,6 @@
     "building": "Dry Dock",
     "buildingLevel": 1,
     "unlockLevel": 31,
-    "availableInGame": true,
     "productionTime": 25920,
     "cost": [
       {
@@ -53205,7 +53091,6 @@
     "building": "Dry Dock",
     "buildingLevel": 1,
     "unlockLevel": 32,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -53931,7 +53816,6 @@
     "building": "Dry Dock",
     "buildingLevel": 4,
     "unlockLevel": 32,
-    "availableInGame": true,
     "productionTime": 19440,
     "cost": [
       {
@@ -54890,7 +54774,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -55384,7 +55267,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -55878,7 +55760,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -56166,7 +56047,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -56454,7 +56334,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -56750,7 +56629,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -57046,7 +56924,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -57464,7 +57341,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -57882,7 +57758,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 43,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -58304,7 +58179,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -58800,7 +58674,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -59296,7 +59169,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -59707,7 +59579,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -60118,7 +59989,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -60538,7 +60408,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -60958,7 +60827,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 3,
     "unlockLevel": 53,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -61546,7 +61414,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -62040,7 +61907,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -62534,7 +62400,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -62822,7 +62687,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -63110,7 +62974,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 27,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -63406,7 +63269,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -63702,7 +63564,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -64120,7 +63981,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 1,
     "unlockLevel": 34,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -64538,7 +64398,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": 1,
     "unlockLevel": 50,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Partial",
@@ -65423,7 +65282,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Full",
@@ -66122,7 +65980,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 43,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -66618,7 +66475,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 51,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -67114,7 +66970,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -67525,7 +67380,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -67936,7 +67790,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 43,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -68465,7 +68318,6 @@
     "building": "Infection Test Facility",
     "buildingLevel": 2,
     "unlockLevel": 51,
-    "availableInGame": true,
     "productionTime": 13,
     "cost": [
       {
@@ -68994,7 +68846,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": 1,
     "unlockLevel": 55,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Full",
@@ -69806,7 +69657,6 @@
     "building": "Frontier Recruitment HQ",
     "buildingLevel": 1,
     "unlockLevel": 37,
-    "availableInGame": true,
     "productionTime": 19440,
     "cost": [
       {
@@ -70123,7 +69973,6 @@
     "building": "Frontier Recruitment HQ",
     "buildingLevel": 2,
     "unlockLevel": 37,
-    "availableInGame": true,
     "productionTime": 35640,
     "cost": [
       {
@@ -70762,7 +70611,6 @@
     "building": "Frontier Recruitment HQ",
     "buildingLevel": 3,
     "unlockLevel": 38,
-    "availableInGame": true,
     "productionTime": 10800,
     "cost": [
       {
@@ -71062,7 +70910,6 @@
     "building": "Frontier Recruitment HQ",
     "buildingLevel": 4,
     "unlockLevel": 38,
-    "availableInGame": true,
     "productionTime": 9720,
     "cost": [
       {
@@ -71458,7 +71305,6 @@
     "building": "Frontier Recruitment HQ",
     "buildingLevel": 5,
     "unlockLevel": 37,
-    "availableInGame": true,
     "productionTime": 8640,
     "cost": [
       {
@@ -71762,7 +71608,6 @@
     "building": "Frontier Recruitment HQ",
     "buildingLevel": 6,
     "unlockLevel": 37,
-    "availableInGame": true,
     "productionTime": 7560,
     "cost": [
       {
@@ -72152,7 +71997,6 @@
     "building": "Frontier Recruitment HQ",
     "buildingLevel": 7,
     "unlockLevel": 37,
-    "availableInGame": true,
     "productionTime": 9720,
     "cost": [
       {
@@ -72546,7 +72390,6 @@
     "building": "Frontier Recruitment HQ",
     "buildingLevel": 8,
     "unlockLevel": 37,
-    "availableInGame": true,
     "productionTime": 16200,
     "cost": [
       {
@@ -72866,7 +72709,6 @@
     "building": "Optics Facility",
     "buildingLevel": 1,
     "unlockLevel": 51,
-    "availableInGame": true,
     "productionTime": 69120,
     "cost": [
       {
@@ -73192,7 +73034,6 @@
     "building": "Optics Facility",
     "buildingLevel": 3,
     "unlockLevel": 52,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -73576,7 +73417,6 @@
     "building": "Plasma Weapons Factory",
     "buildingLevel": 1,
     "unlockLevel": 67,
-    "availableInGame": false,
     "productionTime": 51840,
     "cost": [
       {
@@ -74082,7 +73922,6 @@
     "building": "Plasma Weapons Factory",
     "buildingLevel": 1,
     "unlockLevel": 68,
-    "availableInGame": false,
     "productionTime": 51840,
     "cost": [
       {
@@ -74459,7 +74298,6 @@
     "building": "Plasma Weapons Factory",
     "buildingLevel": 1,
     "unlockLevel": 69,
-    "availableInGame": false,
     "productionTime": 60480,
     "cost": [
       {
@@ -75018,7 +74856,6 @@
     "building": "Mercenary Vault",
     "buildingLevel": 1,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 38880,
     "cost": [
       {
@@ -75507,7 +75344,6 @@
     "building": "Mercenary Vault",
     "buildingLevel": 4,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 21060,
     "cost": [
       {
@@ -75813,7 +75649,6 @@
     "building": "Mercenary Vault",
     "buildingLevel": 2,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 47300,
     "cost": [
       {
@@ -76114,7 +75949,6 @@
     "building": "Mercenary Vault",
     "buildingLevel": 3,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 10800,
     "cost": [
       {
@@ -76616,7 +76450,6 @@
     "building": "Mercenary Vault",
     "buildingLevel": 3,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 21600,
     "cost": [
       {
@@ -77007,7 +76840,6 @@
     "building": "Mercenary Vault",
     "buildingLevel": 4,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 55080,
     "cost": [
       {
@@ -77443,7 +77275,6 @@
     "building": "Mercenary Vault",
     "buildingLevel": 1,
     "unlockLevel": 47,
-    "availableInGame": true,
     "productionTime": 38880,
     "cost": [
       {
@@ -77838,7 +77669,6 @@
     "building": "Bigfoot Training Camp",
     "buildingLevel": 1,
     "unlockLevel": 53,
-    "availableInGame": true,
     "productionTime": 51600,
     "cost": [
       {
@@ -78250,7 +78080,6 @@
     "building": "Bigfoot Training Camp",
     "buildingLevel": 1,
     "unlockLevel": 53,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -78644,7 +78473,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 2,
     "unlockLevel": 12,
-    "availableInGame": true,
     "productionTime": 54000,
     "cost": [
       {
@@ -79099,7 +78927,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 5,
     "unlockLevel": 27,
-    "availableInGame": true,
     "productionTime": 67320,
     "cost": [
       {
@@ -79627,7 +79454,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 42,
-    "availableInGame": true,
     "productionTime": 18720,
     "cost": [
       {
@@ -80250,7 +80076,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 18720,
     "cost": [
       {
@@ -80573,7 +80398,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 48,
-    "availableInGame": true,
     "productionTime": 70200,
     "cost": [
       {
@@ -80960,7 +80784,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 10,
     "unlockLevel": 61,
-    "availableInGame": true,
     "productionTime": 51840,
     "cost": [
       {
@@ -81378,7 +81201,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 11,
     "unlockLevel": 62,
-    "availableInGame": true,
     "productionTime": 42840,
     "cost": [
       {
@@ -81701,7 +81523,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -82525,7 +82346,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -83153,7 +82973,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -83953,7 +83772,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -84447,7 +84265,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 25,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -84870,7 +84687,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 25,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -85295,7 +85111,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 50,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -85725,7 +85540,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 50,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -86253,7 +86067,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -86831,7 +86644,6 @@
     "building": "Dry Dock",
     "buildingLevel": 2,
     "unlockLevel": 26,
-    "availableInGame": true,
     "productionTime": 71280,
     "cost": [
       {
@@ -87444,7 +87256,6 @@
     "building": "Dry Dock",
     "buildingLevel": 2,
     "unlockLevel": 26,
-    "availableInGame": true,
     "productionTime": 31680,
     "cost": [
       {
@@ -88202,7 +88013,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -88848,7 +88658,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -90248,7 +90057,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -90990,7 +90798,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -91692,7 +91499,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -92523,7 +92329,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 36000,
     "cost": [
       {
@@ -92977,7 +92782,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 64800,
     "cost": [
       {
@@ -93385,7 +93189,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 64800,
     "cost": [
       {
@@ -93991,7 +93794,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 64800,
     "cost": [
       {
@@ -94302,7 +94104,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 50,
-    "availableInGame": true,
     "productionTime": 36000,
     "cost": [
       {
@@ -95022,7 +94823,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 50,
-    "availableInGame": true,
     "productionTime": 64800,
     "cost": [
       {
@@ -95661,7 +95461,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 55,
-    "availableInGame": true,
     "productionTime": 64000,
     "cost": [
       {
@@ -96513,7 +96312,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 55,
-    "availableInGame": true,
     "productionTime": 21600,
     "cost": [
       {
@@ -96827,7 +96625,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 59,
-    "availableInGame": true,
     "productionTime": 86400,
     "cost": [
       {
@@ -97288,7 +97085,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 65,
-    "availableInGame": true,
     "productionTime": 16200,
     "cost": [
       {
@@ -97631,7 +97427,6 @@
     "building": "Prestigious Academy",
     "buildingLevel": null,
     "unlockLevel": 70,
-    "availableInGame": false,
     "productionTime": 36000,
     "cost": [
       {
@@ -98092,7 +97887,6 @@
     "building": "Barracks",
     "buildingLevel": null,
     "unlockLevel": 40,
-    "availableInGame": true,
     "productionTime": 14040,
     "cost": [
       {
@@ -99009,7 +98803,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 46800,
     "cost": [
       {
@@ -99466,7 +99259,6 @@
     "building": "Barracks",
     "buildingLevel": null,
     "unlockLevel": 50,
-    "availableInGame": true,
     "productionTime": 112320,
     "cost": [
       {
@@ -99892,7 +99684,6 @@
     "building": "Barracks",
     "buildingLevel": null,
     "unlockLevel": 50,
-    "availableInGame": true,
     "productionTime": 14040,
     "cost": [
       {
@@ -100946,7 +100737,6 @@
     "building": "Barracks",
     "buildingLevel": null,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 78000,
     "cost": [
       {
@@ -101583,7 +101373,6 @@
     "building": "Barracks",
     "buildingLevel": null,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -102212,7 +102001,6 @@
     "building": "Barracks",
     "buildingLevel": 5,
     "unlockLevel": 40,
-    "availableInGame": true,
     "productionTime": 15840,
     "cost": [
       {
@@ -102674,7 +102462,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 21060,
     "cost": [
       {
@@ -103427,7 +103214,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 30,
-    "availableInGame": true,
     "productionTime": 23400,
     "cost": [
       {
@@ -104211,7 +103997,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 23400,
     "cost": [
       {
@@ -104894,7 +104679,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -105420,7 +105204,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -106339,7 +106122,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -107094,7 +106876,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -108031,7 +107812,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -108853,7 +108633,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -109616,7 +109395,6 @@
     "building": "Animal Trainer",
     "buildingLevel": null,
     "unlockLevel": 50,
-    "availableInGame": true,
     "productionTime": 36000,
     "cost": [
       {
@@ -110161,7 +109939,6 @@
     "building": "Animal Trainer",
     "buildingLevel": null,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 51840,
     "cost": [
       {
@@ -110593,7 +110370,6 @@
     "building": "Animal Trainer",
     "buildingLevel": null,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 60480,
     "cost": [
       {
@@ -111017,7 +110793,6 @@
     "building": "Animal Trainer",
     "buildingLevel": null,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 34560,
     "cost": [
       {
@@ -111430,7 +111205,6 @@
     "building": "Animal Trainer",
     "buildingLevel": null,
     "unlockLevel": 40,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -111858,7 +111632,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 6,
     "cost": [
       {
@@ -113313,7 +113086,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 19440,
     "cost": [
       {
@@ -113804,7 +113576,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 19440,
     "cost": [
       {
@@ -114697,7 +114468,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 36,
     "cost": [
       {
@@ -115711,7 +115481,6 @@
     "building": "Animal Trainer",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 36,
     "cost": [
       {
@@ -116815,7 +116584,6 @@
     "building": "Raider Training Camp",
     "buildingLevel": 1,
     "unlockLevel": 40,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -117244,7 +117012,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": null,
     "unlockLevel": 36,
-    "availableInGame": true,
     "productionTime": 37440,
     "cost": [
       {
@@ -117815,7 +117582,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": null,
     "unlockLevel": 30,
-    "availableInGame": true,
     "productionTime": 60840,
     "cost": [
       {
@@ -118698,7 +118464,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": null,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 84240,
     "cost": [
       {
@@ -119168,7 +118933,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": null,
     "unlockLevel": 45,
-    "availableInGame": true,
     "productionTime": 37440,
     "cost": [
       {
@@ -119595,7 +119359,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": null,
     "unlockLevel": 5,
-    "availableInGame": true,
     "productionTime": 18720,
     "cost": [
       {
@@ -120216,7 +119979,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 23400,
     "cost": [
       {
@@ -121082,7 +120844,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 20,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -121785,7 +121546,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -122591,7 +122351,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -123651,7 +123410,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -124438,7 +124196,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 35,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -125218,7 +124975,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -126018,7 +125774,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": null,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "Partial",
@@ -126588,7 +126343,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -127587,7 +127341,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -128534,7 +128287,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 10,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -129387,7 +129139,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": 1,
     "unlockLevel": 15,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -130182,7 +129933,6 @@
     "building": "Dry Dock",
     "buildingLevel": 1,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 36,
     "cost": [
       {
@@ -131111,7 +130861,6 @@
     "building": "Barracks",
     "buildingLevel": 1,
     "unlockLevel": 25,
-    "availableInGame": true,
     "productionTime": 39,
     "cost": [
       {
@@ -131992,7 +131741,6 @@
     "building": "Fish Hatchery",
     "buildingLevel": 1,
     "unlockLevel": 31,
-    "availableInGame": true,
     "productionTime": 34560,
     "cost": [
       {
@@ -132532,7 +132280,6 @@
     "building": "Fish Hatchery",
     "buildingLevel": 1,
     "unlockLevel": 33,
-    "availableInGame": true,
     "productionTime": 43200,
     "cost": [
       {
@@ -133129,7 +132876,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 66,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -133481,7 +133227,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 68,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Partial",
@@ -133943,7 +133688,6 @@
     "building": "Vehicle Factory",
     "buildingLevel": null,
     "unlockLevel": 65,
-    "availableInGame": true,
     "productionTime": null,
     "cost": [],
     "blocking": "Partial",
@@ -134350,7 +134094,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 15,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Full",
@@ -134912,7 +134655,6 @@
     "building": "Boss Drop",
     "buildingLevel": null,
     "unlockLevel": 15,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Partial",
@@ -135423,7 +135165,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -136048,7 +135789,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -136802,7 +136542,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -137434,7 +137173,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -138339,7 +138077,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -139316,7 +139053,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -140132,7 +139868,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -140562,7 +140297,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -141495,7 +141229,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -142502,7 +142235,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -143374,7 +143106,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -144215,7 +143946,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -144903,7 +144633,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -145520,7 +145249,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 10,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Partial",
@@ -146328,7 +146056,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 10,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Partial",
@@ -146960,7 +146687,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 10,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Partial",
@@ -147542,7 +147268,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -148541,7 +148266,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -149555,7 +149279,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -150312,7 +150035,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -151131,7 +150853,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -151768,7 +151489,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "None",
@@ -152686,7 +152406,6 @@
     "building": "Boss Strike Reward",
     "buildingLevel": null,
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": null,
     "cost": [],
     "blocking": "Partial",
@@ -153716,7 +153435,6 @@
     "affiliation": "Silver Wolves",
     "building": "Mercenary Vault",
     "unlockLevel": 47,
-    "availableInGame": false,
     "productionTime": 60480,
     "cost": [
       {
@@ -154204,7 +153922,6 @@
     "affiliation": "Imperial",
     "building": "Arena Challenge Reward",
     "unlockLevel": 10,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Partial",
@@ -154877,7 +154594,6 @@
     "affiliation": "Imperial",
     "building": "Arena Challenge Reward",
     "unlockLevel": 10,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Partial",
@@ -155552,7 +155268,6 @@
     "affiliation": "Imperial",
     "building": "Arena Challenge Reward",
     "unlockLevel": 10,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Partial",
@@ -156225,7 +155940,6 @@
     "affiliation": "Imperial",
     "building": "Arena Challenge Reward",
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Partial",
@@ -156997,7 +156711,6 @@
     "affiliation": "Imperial",
     "building": "Arena Challenge Reward",
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Partial",
@@ -157769,7 +157482,6 @@
     "affiliation": "Imperial",
     "building": "Arena Challenge Reward",
     "unlockLevel": 1,
-    "availableInGame": false,
     "productionTime": 0,
     "cost": [],
     "blocking": "Partial",
@@ -158541,7 +158253,6 @@
     "affiliation": "Frontier",
     "building": "Vehicle Factory",
     "unlockLevel": 50,
-    "availableInGame": true,
     "productionTime": 5,
     "cost": [
       {
