@@ -90,6 +90,11 @@ export interface ActionRank {
   critVsArtillery?: number;
   critVsBattleship?: number;
   critVsGunboat?: number;
+  critVsDefense?: number;
+  critVsCivilians?: number;
+  critVsMetal?: number;
+  critVsGround?: number;
+  critVsExperimentalConstruct?: number;
 }
 
 /** Status effect applied by an attack. */
