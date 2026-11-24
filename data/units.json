@@ -121933,8 +121933,13 @@
         "pattern": {
           "tiles": [
             {
-              "x": -1,
-              "y": 0,
+              "x": 0,
+              "y": -2,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 0,
+              "y": -1,
               "damageMultiplier": 1
             },
             {
@@ -121943,18 +121948,8 @@
               "damageMultiplier": 1
             },
             {
-              "x": -1,
-              "y": 1,
-              "damageMultiplier": 1
-            },
-            {
               "x": 0,
               "y": 1,
-              "damageMultiplier": 1
-            },
-            {
-              "x": -1,
-              "y": 2,
               "damageMultiplier": 1
             },
             {
@@ -121963,23 +121958,28 @@
               "damageMultiplier": 1
             },
             {
-              "x": -1,
-              "y": 3,
+              "x": 1,
+              "y": -2,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 3,
+              "x": 1,
+              "y": -1,
               "damageMultiplier": 1
             },
             {
-              "x": -1,
-              "y": 4,
+              "x": 1,
+              "y": 0,
               "damageMultiplier": 1
             },
             {
-              "x": 0,
-              "y": 4,
+              "x": 1,
+              "y": 1,
+              "damageMultiplier": 1
+            },
+            {
+              "x": 1,
+              "y": 2,
               "damageMultiplier": 1
             }
           ]
